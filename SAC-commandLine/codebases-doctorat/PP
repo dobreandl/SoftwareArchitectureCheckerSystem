@@ -1,0 +1,563 @@
+MODEL
+
+AppConstants
+AppDelegate
+AppLaunchChecker
+Array
+AuthenticationParser
+AuthenticationService
+BaseFlowDelegate
+BaseFlowManager
+BaseViewControllerFlowDelegate
+BioIDHelper
+Credentials
+Decimal
+DigitValidator
+EmailValidator
+FlowManagerProtocol
+HTTPCookie
+HTTPCookieStorage
+KeychainHelper
+LandingFlowManagerDelegate
+LoginError
+LoginFlowDelegate
+MainFlowManagerProtocol
+MenuFlowManagerProtocol
+NSLayoutConstraint
+OrientationHelper
+PIN
+PPError
+RegistrationMapper
+RegistrationService
+Session
+SessionManager
+SessionService
+SettingsHelper
+SignUpFlowDelegate
+StoryboardHelper
+String
+UIColor
+UIDevice
+UIFont
+URLRequest
+User
+UserDefaultsHelper
+UserMapper
+UserRegistrationDetails
+UserService
+Validator
+WebViewFlowChangePageProtocol
+
+
+
+VIEW
+
+ActivityIndicator
+Checkbox
+ClearableField
+CodeInputField
+CodeInputFieldDelegate
+HiddenTextField
+HiddenTextFieldDelegate
+LandingPagePageIndicatorView
+LandingPagePageIndicatorViewDelegate
+LandingPageScrollItemView
+LoadingScreenView
+NavbarView
+PasswordTextFieldDelegate
+PPPasswordTextField
+PPSecureTextField
+PPTextField
+SignUpSwitch
+SignUpSwitchDelegate
+Spinner
+UITextField
+UIView
+WKWebView
+
+
+
+CONTROLLER
+
+AlertContainerViewController
+AppNavigationManager
+BaseLoginViewController
+BaseNavigationController
+BaseViewController
+LandingFlowManager
+LandingInfoViewController
+LandingInfoViewControllerFlowDelegate
+LandingViewController
+LandingViewControllerFlowDelegate
+LoggedOutDelegate
+LoggedOutViewControler
+LoginControllerResultDelegate
+LoginCredentialsDelegate
+LoginCredentialsViewController
+LoginFlowManager
+LoginMFACodeEntryViewController
+LoginPinEntryViewController
+LoginPinSetupViewController
+LoginWithBioViewController
+MainFlowManager
+MainViewController
+MenuFlowManager
+MenuSplitViewController
+MenuViewController
+MenuViewControllerFlowDelegate
+MFACodeEntryDelegate
+MFAProblemsDelegate
+MFAProblemsViewController
+PinEntryDelegate
+PinSetupDelegate
+SaveWithBioDelegate
+SaveWithBioViewController
+SignUpControllerDelegate
+SignUpFlowManager
+SignUpViewController
+SplashFlowManager
+StartingViewController
+UIAlertController
+UIViewController
+WebViewFlowManager
+
+
+
+
+************** WITH COORDINATORS
+
+
+
+MODEL
+
+
+AppConstants
+AppLaunchChecker
+Array
+AuthenticationParser
+AuthenticationService
+BioIDHelper
+ClearableField
+CodeInputFieldDelegate
+Credentials
+Decimal
+DigitValidator
+EmailValidator
+HiddenTextFieldDelegate
+HTTPCookie
+HTTPCookieStorage
+KeychainHelper
+LandingPagePageIndicatorViewDelegate
+LoginError
+NSLayoutConstraint
+OrientationHelper
+PasswordTextFieldDelegate
+PIN
+PPError
+RegistrationMapper
+RegistrationService
+Session
+SessionManager
+SessionService
+SettingsHelper
+SignUpSwitchDelegate
+SplashFlowManager
+String
+UIAlertController
+UIColor
+UIDevice
+UIFont
+URLRequest
+User
+UserDefaultsHelper
+UserMapper
+UserRegistrationDetails
+UserService
+Validator
+WebViewFlowChangePageProtocol
+WKWebView
+
+
+
+VIEW
+
+
+ActivityIndicator
+Checkbox
+CodeInputField
+HiddenTextField
+LandingPagePageIndicatorView
+LandingPageScrollItemView
+LoadingScreenView
+NavbarView
+PPPasswordTextField
+PPSecureTextField
+PPTextField
+SignUpSwitch
+Spinner
+
+
+
+CONTROLLERS
+
+AlertContainerViewController
+AppDelegate
+AppNavigationManager
+BaseFlowDelegate
+BaseFlowManager
+BaseLoginViewController
+BaseNavigationController
+BaseViewController
+BaseViewControllerFlowDelegate
+FlowManagerProtocol
+LandingFlowManager
+LandingFlowManagerDelegate
+LandingInfoViewController
+LandingInfoViewControllerFlowDelegate
+LandingViewController
+LandingViewControllerFlowDelegate
+LoggedOutDelegate
+LoggedOutViewControler
+LoginControllerResultDelegate
+LoginCredentialsDelegate
+LoginCredentialsViewController
+LoginFlowDelegate
+LoginFlowManager
+LoginMFACodeEntryViewController
+LoginPinEntryViewController
+LoginPinSetupViewController
+LoginWithBioViewController
+MainFlowManager
+MainFlowManagerProtocol
+MainViewController
+MenuFlowManager
+MenuFlowManagerProtocol
+MenuSplitViewController
+MenuViewController
+MenuViewControllerFlowDelegate
+MFACodeEntryDelegate
+MFAProblemsDelegate
+MFAProblemsViewController
+PinEntryDelegate
+PinSetupDelegate
+SaveWithBioDelegate
+SaveWithBioViewController
+SignUpControllerDelegate
+SignUpFlowDelegate
+SignUpFlowManager
+SignUpViewController
+StartingViewController
+StoryboardHelper
+WebViewFlowManager
+
+
+STATS
+
+Module: Controller external dependencies 644 internal dependencies 25
+Module: View external dependencies 82 internal dependencies 14
+Module: Model external dependencies 177 internal dependencies 13
+Total components: 190
+Module Controller has: 90 components 47% of total.
+Module View has: 53 components 27% of total.
+Module Model has: 47 components 24% of total.
+
+   *Model depends on View -> Total: 1 Different items 1*  Total in first module - 177 percentage: 0  
+
+
+   *Controller depends on View -> Total: 131 Different items 19*  Total in first module - 644 percentage: 20  
+
+
+   *Controller depends on Model -> Total: 65 Different items 14*  Total in first module - 644 percentage: 10  
+
+
+
+
+************** SIMPLE
+
+
+
+
+
+
+MODEL
+
+
+AppConstants
+AppDelegate
+AppLaunchChecker
+AppNavigationManager
+Array
+AuthenticationParser
+AuthenticationService
+BaseFlowDelegate
+BaseFlowManager
+BaseViewControllerFlowDelegate
+BioIDHelper
+ClearableField
+CodeInputFieldDelegate
+Credentials
+Decimal
+DigitValidator
+EmailValidator
+FlowManagerProtocol
+HiddenTextFieldDelegate
+HTTPCookie
+HTTPCookieStorage
+KeychainHelper
+LandingFlowManager
+LandingFlowManagerDelegate
+LandingInfoViewControllerFlowDelegate
+LandingPagePageIndicatorViewDelegate
+LandingViewControllerFlowDelegate
+LoggedOutDelegate
+LoginControllerResultDelegate
+LoginCredentialsDelegate
+LoginError
+LoginFlowDelegate
+LoginFlowManager
+MainFlowManager
+MainFlowManagerProtocol
+MenuFlowManager
+MenuFlowManagerProtocol
+MenuViewControllerFlowDelegate
+MFACodeEntryDelegate
+MFAProblemsDelegate
+NSLayoutConstraint
+OrientationHelper
+PasswordTextFieldDelegate
+PIN
+PinEntryDelegate
+PinSetupDelegate
+PPError
+RegistrationMapper
+RegistrationService
+SaveWithBioDelegate
+Session
+SessionManager
+SessionService
+SettingsHelper
+SignUpControllerDelegate
+SignUpFlowDelegate
+SignUpFlowManager
+SignUpSwitchDelegate
+SplashFlowManager
+StoryboardHelper
+String
+UIAlertController
+UIColor
+UIDevice
+UIFont
+URLRequest
+User
+UserDefaultsHelper
+UserMapper
+UserRegistrationDetails
+UserService
+Validator
+WebViewFlowChangePageProtocol
+WebViewFlowManager
+WKWebView
+
+
+
+VIEW
+
+
+ActivityIndicator
+Checkbox
+CodeInputField
+HiddenTextField
+LandingPagePageIndicatorView
+LandingPageScrollItemView
+LoadingScreenView
+NavbarView
+PPPasswordTextField
+PPSecureTextField
+PPTextField
+SignUpSwitch
+Spinner
+
+
+
+CONTROLLER
+
+AlertContainerViewController
+BaseLoginViewController
+BaseNavigationController
+BaseViewController
+LandingInfoViewController
+LandingViewController
+LoggedOutViewControler
+LoginCredentialsViewController
+LoginMFACodeEntryViewController
+LoginPinEntryViewController
+LoginPinSetupViewController
+LoginWithBioViewController
+MainViewController
+MenuSplitViewController
+MenuViewController
+MFAProblemsViewController
+SaveWithBioViewController
+SignUpViewController
+StartingViewController
+
+
+STATS
+
+Module: Controller external dependencies 384 internal dependencies 1
+Module: View external dependencies 82 internal dependencies 14
+Module: Model external dependencies 469 internal dependencies 26
+Total components: 191
+Module Controller has: 40 components 20% of total.
+Module View has: 53 components 27% of total.
+Module Model has: 98 components 51% of total.
+
+   *Controller depends on Model -> Total: 35 Different items 12*  Total in first module - 384 percentage: 9  
+
+
+   *Controller depends on View -> Total: 115 Different items 18*  Total in first module - 384 percentage: 29  
+
+
+   *Model depends on View -> Total: 18 Different items 3*  Total in first module - 469 percentage: 3  
+
+
+   *Model depends on Controller -> Total: 104 Different items 16*  Total in first module - 469 percentage: 22 
+
+
+ VC - CC  0/0
+
+
+
+
+
+ Clustering
+
+ 2 _________
+
+
+		ActivityIndicator
+		Checkbox
+		LoadingScreenView
+		NavbarView
+		PPPasswordTextField
+		PPSecureTextField
+		PPTextField
+		Spinner
+		CodeInputField
+		HiddenTextField
+		LandingPagePageIndicatorView
+		LandingPageScrollItemView
+		SignUpSwitch
+
+
+0 _________
+
+
+		BaseViewControllerFlowDelegate
+		AlertContainerViewController
+		UIAlertController
+		UIViewController
+		BaseNavigationController
+		BaseViewController
+		MenuSplitViewController
+		LoginControllerResultDelegate
+		BaseLoginViewController
+		LandingInfoViewControllerFlowDelegate
+		LandingInfoViewController
+		LandingViewControllerFlowDelegate
+		LandingViewController
+		LoginCredentialsViewController
+		LoginMFACodeEntryViewController
+		LoginPinEntryViewController
+		LoginPinSetupViewController
+		LoginWithBioViewController
+		MFAProblemsViewController
+		SaveWithBioViewController
+		SignUpControllerDelegate
+		SignUpViewController
+		StartingViewController
+		MainViewController
+		MenuViewControllerFlowDelegate
+		MenuViewController
+
+
+
+1 _________
+
+
+		AppConstants
+		AppDelegate
+		LoginError
+		PPError
+		AppNavigationManager
+		LoginFlowDelegate
+		LoginFlowManager
+		SignUpFlowDelegate
+		SignUpFlowManager
+		FlowManagerProtocol
+		BaseFlowDelegate
+		BaseFlowManager
+		LandingFlowManagerDelegate
+		LandingFlowManager
+		MainFlowManagerProtocol
+		MainFlowManager
+		WebViewFlowChangePageProtocol
+		WebViewFlowManager
+		MenuFlowManagerProtocol
+		MenuFlowManager
+		SplashFlowManager
+		AppLaunchChecker
+		BioIDHelper
+		Decimal
+		HTTPCookie
+		HTTPCookieStorage
+		KeychainHelper
+		NSLayoutConstraint
+		OrientationHelper
+		SessionManager
+		SettingsHelper
+		StoryboardHelper
+		String
+		UIColor
+		UIDevice
+		UIFont
+		UIView
+		URLRequest
+		UserDefaultsHelper
+		DigitValidator
+		EmailValidator
+		Validator
+		Array
+		WKWebView
+		Credentials
+		PIN
+		Session
+		User
+		UserRegistrationDetails
+		AuthenticationParser
+		AuthenticationService
+		RegistrationMapper
+		UserMapper
+		RegistrationService
+		SessionService
+		UserService
+		LoggedOutDelegate
+		LoggedOutViewControler
+		LoginCredentialsDelegate
+		MFACodeEntryDelegate
+		PinEntryDelegate
+		PinSetupDelegate
+		MFAProblemsDelegate
+		SaveWithBioDelegate
+		ClearableField
+		UITextField
+		PPPasswordTextField
+		PasswordTextFieldDelegate
+		CodeInputFieldDelegate
+		CodeInputField
+		HiddenTextFieldDelegate
+		LandingPagePageIndicatorViewDelegate
+		SignUpSwitchDelegate
+
+
+

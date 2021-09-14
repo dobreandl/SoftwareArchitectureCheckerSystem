@@ -1,0 +1,147 @@
+{
+  "\/Users\/dragos\/Desktop\/wrongDependencies\/demoWrongDependencies\/demoWrongDependencies\/ViewController.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 1058,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.bodylength" : 836,
+        "key.bodyoffset" : 219,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 16,
+            "key.offset" : 201
+          }
+        ],
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UIViewController"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 877,
+        "key.name" : "ViewController",
+        "key.namelength" : 14,
+        "key.nameoffset" : 185,
+        "key.offset" : 179,
+        "key.runtime_name" : "_TtC4main14ViewController",
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 229
+              }
+            ],
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 83,
+            "key.name" : "models",
+            "key.namelength" : 6,
+            "key.nameoffset" : 241,
+            "key.offset" : 237,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.private"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 325
+              }
+            ],
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 47,
+            "key.name" : "stackView",
+            "key.namelength" : 9,
+            "key.nameoffset" : 337,
+            "key.offset" : 333
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 15,
+            "key.name" : "MARK: Lifecycle",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 393
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override",
+                "key.length" : 8,
+                "key.offset" : 414
+              }
+            ],
+            "key.bodylength" : 96,
+            "key.bodyoffset" : 443,
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 117,
+            "key.name" : "viewDidLoad()",
+            "key.namelength" : 13,
+            "key.nameoffset" : 428,
+            "key.offset" : 423,
+            "key.substructure" : [
+
+            ]
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 21,
+            "key.name" : "MARK: Private methods",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 553
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 584
+              }
+            ],
+            "key.bodylength" : 196,
+            "key.bodyoffset" : 615,
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 220,
+            "key.name" : "setupStackView()",
+            "key.namelength" : 16,
+            "key.nameoffset" : 597,
+            "key.offset" : 592,
+            "key.substructure" : [
+
+            ]
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 822
+              }
+            ],
+            "key.bodylength" : 204,
+            "key.bodyoffset" : 849,
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 224,
+            "key.name" : "showModels()",
+            "key.namelength" : 12,
+            "key.nameoffset" : 835,
+            "key.offset" : 830,
+            "key.substructure" : [
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

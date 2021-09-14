@@ -1,0 +1,292 @@
+JustSnap
+
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Swift                          328           7861           3169          20525
+JSON                            92              0              0           2276
+-------------------------------------------------------------------------------
+SUM:                           420           7861           3169          22801
+-------------------------------------------------------------------------------
+
+// Coordinators
+
+Total components: 553
+Module Controller has: 248 components 44% of total.
+Module View has: 90 components 16% of total.
+Module Model has: 215 components 38% of total.
+
+   *View depends on Model -> Total: 70 Different items 26*  Total in first module - 487 percentage: 14  
+
+
+   *Controller depends on View -> Total: 155 Different items 29*  Total in first module - 2475 percentage: 6  
+
+
+   *Model depends on Controller -> Total: 1 Different items 1*  Total in first module - 944 percentage: 0  
+
+
+   *Model depends on View -> Total: 1 Different items 1*  Total in first module - 944 percentage: 0  
+
+
+   *View depends on Controller -> Total: 2 Different items 1*  Total in first module - 487 percentage: 0  
+
+
+   *Controller depends on Model -> Total: 220 Different items 53*  Total in first module - 2475 percentage: 8  
+
+// Simple
+
+Total components: 553
+Module Controller has: 82 components 14% of total.
+Module View has: 90 components 16% of total.
+Module Model has: 381 components 68% of total.
+
+   *View depends on Model -> Total: 72 Different items 27*  Total in first module - 487 percentage: 14  
+
+
+   *Controller depends on View -> Total: 148 Different items 29*  Total in first module - 1703 percentage: 8  
+
+
+   *Model depends on Controller -> Total: 28 Different items 3*  Total in first module - 1843 percentage: 1  
+
+
+   *Model depends on View -> Total: 1 Different items 1*  Total in first module - 1843 percentage: 0  
+
+
+   *Controller depends on Model -> Total: 292 Different items 63*  Total in first module - 1703 percentage: 17  
+
+
+Firefox
+---------------------------------------------------------------------------------------
+Language                             files          blank        comment           code
+---------------------------------------------------------------------------------------
+JavaScript                            5236          50494          66777         297275
+C                                      197          23541          74550         198791
+JSON                                   737             16              0         123872
+Swift                                  728          23392          18648         100111
+Objective C                            709          20364          14943          83356
+Markdown                               544          22327              0          55148
+C/C++ Header                           796          13898          41342          41792
+XML                                    171            190            758           7738
+CSS                                     12            245            115           7570
+HTML                                    35            536            103           3396
+YAML                                   109             77             83           1684
+Ruby                                    20            225            355            964
+Python                                  12            241            125            944
+m4                                       2            110             41            902
+make                                    21            188             48            810
+Bourne Shell                            24            179            251            684
+D                                       93              0              0            592
+TypeScript                               5             98            305            508
+Windows Module Definition                5             88              0            437
+CMake                                    4             52             61            407
+Groovy                                   1             13              9            382
+C++                                      1             36             36            158
+Windows Resource File                    4             12              0            152
+Bourne Again Shell                       2             21             21            145
+DOS Batch                                1             24              2             64
+CoffeeScript                             2             10              7             49
+Handlebars                               2              8              0             42
+Go                                       1             10             15             20
+INI                                      1              0              0              4
+---------------------------------------------------------------------------------------
+SUM:                                  9475         156395         218595         927997
+---------------------------------------------------------------------------------------
+
+// Coordinators
+
+Total components: 745
+Module Controller has: 175 components 23% of total.
+Module View has: 80 components 10% of total.
+Module Model has: 490 components 65% of total.
+
+   *View depends on Model -> Total: 21 Different items 9*  Total in first module - 772 percentage: 2  
+
+
+   *Controller depends on View -> Total: 56 Different items 25*  Total in first module - 2687 percentage: 2  
+
+
+   *Model depends on View -> Total: 1 Different items 1*  Total in first module - 2465 percentage: 0  
+
+
+   *Controller depends on Model -> Total: 68 Different items 37*  Total in first module - 2687 percentage: 2  
+
+// Simple
+
+Total components: 745
+Module Controller has: 55 components 7% of total.
+Module View has: 80 components 10% of total.
+Module Model has: 610 components 81% of total.
+
+   *View depends on Model -> Total: 21 Different items 9*  Total in first module - 772 percentage: 2  
+
+
+   *Controller depends on View -> Total: 80 Different items 28*  Total in first module - 1630 percentage: 4  
+
+
+   *Model depends on Controller -> Total: 27 Different items 1*  Total in first module - 3209 percentage: 0  
+
+
+   *Model depends on View -> Total: 1 Different items 1*  Total in first module - 3209 percentage: 0  
+
+
+   *Controller depends on Model -> Total: 190 Different items 48*  Total in first module - 1630 percentage: 11    
+
+
+Fazan-MVC
+
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Swift                           37            839            331           2113
+JSON                            14              0              0            366
+C/C++ Header                     1              1              3              1
+-------------------------------------------------------------------------------
+SUM:                            52            840            334           2480
+-------------------------------------------------------------------------------
+
+// Coordinators
+
+
+Components 44
+Total components: 44
+Module Controller has: 11 components 25% of total.
+Module View has: 4 components 9% of total.
+Module Model has: 29 components 65% of total.
+
+   *View depends on Model -> Total: 1 Different items 1*  Total in first module - 40 percentage: 2  
+
+
+   *Controller depends on View -> Total: 2 Different items 2*  Total in first module - 188 percentage: 1  
+
+
+   *Controller depends on Model -> Total: 38 Different items 6*  Total in first module - 188 percentage: 20  
+
+
+// Simple
+
+Total components: 44
+Module Controller has: 11 components 25% of total.
+Module View has: 4 components 9% of total.
+Module Model has: 29 components 65% of total.
+
+   *View depends on Model -> Total: 1 Different items 1*  Total in first module - 40 percentage: 2  
+
+
+   *Controller depends on View -> Total: 2 Different items 2*  Total in first module - 188 percentage: 1  
+
+
+   *Controller depends on Model -> Total: 38 Different items 6*  Total in first module - 188 percentage: 20    
+
+
+
+
+Trust
+
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Swift                          450           4772           3809          23919
+JSON                            65              0              0           1499
+Markdown                         3             40              0             85
+YAML                             2              6              0             69
+make                             1             12              0             22
+Bourne Shell                     1              1              0              5
+JavaScript                       1              0              2              1
+-------------------------------------------------------------------------------
+SUM:                           523           4831           3811          25600
+-------------------------------------------------------------------------------
+
+// Coordinators
+
+Total components: 567
+Module Controller has: 131 components 23% of total.
+Module View has: 38 components 6% of total.
+Module Model has: 398 components 70% of total.
+
+   *View depends on Model -> Total: 21 Different items 14*  Total in first module - 245 percentage: 8  
+
+
+   *Controller depends on View -> Total: 20 Different items 13*  Total in first module - 1205 percentage: 1  
+
+
+   *Model depends on View -> Total: 1 Different items 1*  Total in first module - 1392 percentage: 0  
+
+
+   *Controller depends on Model -> Total: 148 Different items 61*  Total in first module - 1205 percentage: 12   
+
+// Simple
+
+Total components: 567
+Module Controller has: 32 components 5% of total.
+Module View has: 38 components 6% of total.
+Module Model has: 497 components 87% of total.
+
+   *View depends on Model -> Total: 21 Different items 14*  Total in first module - 245 percentage: 8  
+
+
+   *Controller depends on View -> Total: 20 Different items 13*  Total in first module - 518 percentage: 3  
+
+
+   *Model depends on Controller -> Total: 4 Different items 3*  Total in first module - 1773 percentage: 0  
+
+
+   *Model depends on View -> Total: 1 Different items 1*  Total in first module - 1773 percentage: 0  
+
+
+   *Controller depends on Model -> Total: 77 Different items 39*  Total in first module - 518 percentage: 14  
+
+Wikipedia (swift + objc)
+
+--------------------------------------------------------------------------------
+Language                      files          blank        comment           code
+--------------------------------------------------------------------------------
+Objective C                     970          24996           9115          93784
+Swift                           351           6933           1473          35640
+C/C++ Header                    862          10980          24776          14822
+JSON                            267              0              0          12238
+CSS                               9            205            215           7217
+HTML                             48            398             33           6921
+Markdown                         67           2844              0           6553
+JavaScript                       26            473            776           3827
+Bourne Shell                     17            124             89            426
+Ruby                              7             93             36            390
+YAML                             13             56             20            266
+PHP                               1             36             61            145
+Bourne Again Shell               11             38             24            140
+LESS                              3             28             39            119
+make                              1             30             12             74
+C                                 1             14              0             50
+--------------------------------------------------------------------------------
+SUM:                           2654          47248          36669         182612
+--------------------------------------------------------------------------------
+
+// Coordinators
+
+Total components: 447
+Module Controller has: 141 components 31% of total.
+Module View has: 29 components 6% of total.
+Module Model has: 277 components 61% of total.
+
+   *View depends on Model -> Total: 7 Different items 3*  Total in first module - 174 percentage: 4  
+
+
+   *Controller depends on View -> Total: 30 Different items 13*  Total in first module - 2696 percentage: 1  
+
+
+   *Controller depends on Model -> Total: 71 Different items 32*  Total in first module - 2696 percentage: 2   
+
+
+// Simple
+
+Total components: 447
+Module Controller has: 80 components 17% of total.
+Module View has: 29 components 6% of total.
+Module Model has: 338 components 75% of total.
+
+   *View depends on Model -> Total: 7 Different items 3*  Total in first module - 174 percentage: 4  
+
+
+   *Controller depends on View -> Total: 30 Different items 13*  Total in first module - 2266 percentage: 1  
+
+
+   *Controller depends on Model -> Total: 83 Different items 38*  Total in first module - 2266 percentage: 3  

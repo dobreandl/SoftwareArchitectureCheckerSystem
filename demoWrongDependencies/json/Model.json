@@ -1,0 +1,57 @@
+{
+  "\/Users\/dragos\/Desktop\/wrongDependencies\/demoWrongDependencies\/demoWrongDependencies\/Model\/Model.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 346,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.bodylength" : 155,
+        "key.bodyoffset" : 189,
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 169,
+        "key.name" : "Model",
+        "key.namelength" : 5,
+        "key.nameoffset" : 182,
+        "key.offset" : 176,
+        "key.runtime_name" : "_TtC4main5Model",
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 16,
+            "key.name" : "name",
+            "key.namelength" : 4,
+            "key.nameoffset" : 203,
+            "key.offset" : 199,
+            "key.typename" : "String"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 16,
+            "key.name" : "price",
+            "key.namelength" : 5,
+            "key.nameoffset" : 224,
+            "key.offset" : 220,
+            "key.typename" : "Float"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.bodylength" : 57,
+            "key.bodyoffset" : 280,
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 92,
+            "key.name" : "init(name:price:)",
+            "key.namelength" : 32,
+            "key.nameoffset" : 246,
+            "key.offset" : 246,
+            "key.substructure" : [
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

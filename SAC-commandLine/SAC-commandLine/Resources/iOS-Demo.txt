@@ -1,0 +1,2217 @@
+[{
+  "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/AppDelegate.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 674,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>@main class AppDelegate : <Type usr=\"c:objc(cs)UIResponder\">UIResponder<\/Type>, <Type usr=\"c:objc(pl)UIApplicationDelegate\">UIApplicationDelegate<\/Type><\/Declaration>",
+        "key.attributes" : [
+          {
+            "key.attribute" : "source.decl.attribute.main",
+            "key.length" : 5,
+            "key.offset" : 120
+          }
+        ],
+        "key.bodylength" : 490,
+        "key.bodyoffset" : 181,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 11,
+            "key.offset" : 145
+          },
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 21,
+            "key.offset" : 158
+          }
+        ],
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/AppDelegate.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@main<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>AppDelegate<\/decl.name> : <ref.class usr=\"c:objc(cs)UIResponder\">UIResponder<\/ref.class>, <ref.protocol usr=\"c:objc(pl)UIApplicationDelegate\">UIApplicationDelegate<\/ref.protocol><\/decl.class>",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UIResponder"
+          },
+          {
+            "key.name" : "UIApplicationDelegate"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 546,
+        "key.name" : "AppDelegate",
+        "key.namelength" : 11,
+        "key.nameoffset" : 132,
+        "key.offset" : 126,
+        "key.parsed_declaration" : "class AppDelegate: UIResponder, UIApplicationDelegate",
+        "key.parsed_scope.end" : 22,
+        "key.parsed_scope.start" : 11,
+        "key.substructure" : [
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 30,
+            "key.name" : "MARK: UISceneSession Lifecycle",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 190
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func application(_ application: <Type usr=\"c:objc(cs)UIApplication\">UIApplication<\/Type>, configurationForConnecting connectingSceneSession: <Type usr=\"c:objc(cs)UISceneSession\">UISceneSession<\/Type>, options: <Type usr=\"c:objc(cs)UIScene\">UIScene<\/Type>.<Type usr=\"c:objc(cs)UISceneConnectionOptions\">ConnectionOptions<\/Type>) -&gt; <Type usr=\"c:objc(cs)UISceneConfiguration\">UISceneConfiguration<\/Type><\/Declaration>",
+            "key.bodylength" : 267,
+            "key.bodyoffset" : 401,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/AppDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>application<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>application<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIApplication\">UIApplication<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>configurationForConnecting<\/decl.var.parameter.argument_label> <decl.var.parameter.name>connectingSceneSession<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UISceneSession\">UISceneSession<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>options<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIScene\">UIScene<\/ref.class>.<ref.class usr=\"c:objc(cs)UISceneConnectionOptions\">ConnectionOptions<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.class usr=\"c:objc(cs)UISceneConfiguration\">UISceneConfiguration<\/ref.class><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 443,
+            "key.name" : "application(_:configurationForConnecting:options:)",
+            "key.namelength" : 144,
+            "key.nameoffset" : 231,
+            "key.offset" : 226,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UIApplicationDelegate(im)application:configurationForConnectingSceneSession:options:"
+              }
+            ],
+            "key.parsed_declaration" : "func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration",
+            "key.parsed_scope.end" : 20,
+            "key.parsed_scope.start" : 15,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(AppDelegate) -> (UIApplication, UISceneSession, UIScene.ConnectionOptions) -> UISceneConfiguration",
+            "key.typeusr" : "$s_26configurationForConnecting7optionsSo20UISceneConfigurationCSo13UIApplicationC_So0E7SessionCSo0E17ConnectionOptionsCtcD",
+            "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)AppDelegate(im)application:configurationForConnectingSceneSession:options:"
+          }
+        ],
+        "key.typename" : "AppDelegate.Type",
+        "key.typeusr" : "$s24Mobile_Take_Home_Project11AppDelegateCmD",
+        "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)AppDelegate"
+      }
+    ]
+  }
+}, {
+  "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 1822,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>class AppCoordinator<\/Declaration>",
+        "key.bodylength" : 1470,
+        "key.bodyoffset" : 145,
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>AppCoordinator<\/decl.name><\/decl.class>",
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 1493,
+        "key.name" : "AppCoordinator",
+        "key.namelength" : 14,
+        "key.nameoffset" : 129,
+        "key.offset" : 123,
+        "key.parsed_declaration" : "class AppCoordinator",
+        "key.parsed_scope.end" : 58,
+        "key.parsed_scope.start" : 10,
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private struct <Type usr=\"s:24Mobile_Take_Home_Project14AppCoordinatorC\">AppCoordinator<\/Type>.Constants<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 155
+              }
+            ],
+            "key.bodylength" : 180,
+            "key.bodyoffset" : 181,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+            "key.fully_annotated_decl" : "<decl.struct><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <ref.class usr=\"s:24Mobile_Take_Home_Project14AppCoordinatorC\">AppCoordinator<\/ref.class>.<decl.name>Constants<\/decl.name><\/decl.struct>",
+            "key.kind" : "source.lang.swift.decl.struct",
+            "key.length" : 199,
+            "key.name" : "Constants",
+            "key.namelength" : 9,
+            "key.nameoffset" : 170,
+            "key.offset" : 163,
+            "key.parsed_declaration" : "private struct Constants",
+            "key.parsed_scope.end" : 17,
+            "key.parsed_scope.start" : 12,
+            "key.substructure" : [
+              {
+                "key.accessibility" : "source.lang.swift.accessibility.internal",
+                "key.annotated_decl" : "<Declaration>static let storyboardName: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+                "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>storyboardName<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+                "key.kind" : "source.lang.swift.decl.var.static",
+                "key.length" : 34,
+                "key.name" : "storyboardName",
+                "key.namelength" : 14,
+                "key.nameoffset" : 201,
+                "key.offset" : 190,
+                "key.parsed_declaration" : "static let storyboardName = \"Main\"",
+                "key.parsed_scope.end" : 13,
+                "key.parsed_scope.start" : 13,
+                "key.typename" : "String",
+                "key.typeusr" : "$sSSD",
+                "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC9Constants33_2C7384110C341CDFB04167230BE17C2ELLV14storyboardNameSSvpZ"
+              },
+              {
+                "key.accessibility" : "source.lang.swift.accessibility.internal",
+                "key.annotated_decl" : "<Declaration>static let handlerInputIdentifier: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+                "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>handlerInputIdentifier<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+                "key.kind" : "source.lang.swift.decl.var.static",
+                "key.length" : 50,
+                "key.name" : "handlerInputIdentifier",
+                "key.namelength" : 22,
+                "key.nameoffset" : 253,
+                "key.offset" : 242,
+                "key.parsed_declaration" : "static let handlerInputIdentifier = \"handle_input\"",
+                "key.parsed_scope.end" : 15,
+                "key.parsed_scope.start" : 15,
+                "key.typename" : "String",
+                "key.typeusr" : "$sSSD",
+                "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC9Constants33_2C7384110C341CDFB04167230BE17C2ELLV22handlerInputIdentifierSSvpZ"
+              },
+              {
+                "key.accessibility" : "source.lang.swift.accessibility.internal",
+                "key.annotated_decl" : "<Declaration>static let profileDetailsIdentifier: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+                "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>profileDetailsIdentifier<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+                "key.kind" : "source.lang.swift.decl.var.static",
+                "key.length" : 55,
+                "key.name" : "profileDetailsIdentifier",
+                "key.namelength" : 24,
+                "key.nameoffset" : 312,
+                "key.offset" : 301,
+                "key.parsed_declaration" : "static let profileDetailsIdentifier = \"profile_details\"",
+                "key.parsed_scope.end" : 16,
+                "key.parsed_scope.start" : 16,
+                "key.typename" : "String",
+                "key.typeusr" : "$sSSD",
+                "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC9Constants33_2C7384110C341CDFB04167230BE17C2ELLV24profileDetailsIdentifierSSvpZ"
+              }
+            ],
+            "key.typename" : "AppCoordinator.Constants.Type",
+            "key.typeusr" : "$s24Mobile_Take_Home_Project14AppCoordinatorC9Constants33_2C7384110C341CDFB04167230BE17C2ELLVmD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC9Constants33_2C7384110C341CDFB04167230BE17C2ELLV"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private let navigationController: <Type usr=\"c:objc(cs)UINavigationController\">UINavigationController<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 372
+              }
+            ],
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>navigationController<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UINavigationController\">UINavigationController<\/ref.class><\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 51,
+            "key.name" : "navigationController",
+            "key.namelength" : 20,
+            "key.nameoffset" : 384,
+            "key.offset" : 380,
+            "key.parsed_declaration" : "private let navigationController = UINavigationController()",
+            "key.parsed_scope.end" : 19,
+            "key.parsed_scope.start" : 19,
+            "key.typename" : "UINavigationController",
+            "key.typeusr" : "$sSo22UINavigationControllerCD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC20navigationController33_2C7384110C341CDFB04167230BE17C2ELLSo012UINavigationH0Cvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func startApp() -&gt; <Type usr=\"c:objc(cs)UIViewController\">UIViewController<\/Type><\/Declaration>",
+            "key.bodylength" : 85,
+            "key.bodyoffset" : 534,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>startApp<\/decl.name>() -&gt; <decl.function.returntype><ref.class usr=\"c:objc(cs)UIViewController\">UIViewController<\/ref.class><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 123,
+            "key.name" : "startApp()",
+            "key.namelength" : 10,
+            "key.nameoffset" : 502,
+            "key.offset" : 497,
+            "key.parsed_declaration" : "func startApp() -> UIViewController",
+            "key.parsed_scope.end" : 27,
+            "key.parsed_scope.start" : 23,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(AppCoordinator) -> () -> UIViewController",
+            "key.typeusr" : "$sSo16UIViewControllerCycD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC05startE0So16UIViewControllerCyF"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 21,
+            "key.name" : "MARK: Private methods",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 638
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private func startTwitterHandlerInput()<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 669
+              }
+            ],
+            "key.bodylength" : 267,
+            "key.bodyoffset" : 710,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>startTwitterHandlerInput<\/decl.name>()<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 301,
+            "key.name" : "startTwitterHandlerInput()",
+            "key.namelength" : 26,
+            "key.nameoffset" : 682,
+            "key.offset" : 677,
+            "key.parsed_declaration" : "private func startTwitterHandlerInput()",
+            "key.parsed_scope.end" : 40,
+            "key.parsed_scope.start" : 32,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(AppCoordinator) -> () -> ()",
+            "key.typeusr" : "$syycD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC24startTwitterHandlerInput33_2C7384110C341CDFB04167230BE17C2ELLyyF"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private func navigateToProfileDetails(username: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 988
+              }
+            ],
+            "key.bodylength" : 288,
+            "key.bodyoffset" : 1045,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>navigateToProfileDetails<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>username<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 338,
+            "key.name" : "navigateToProfileDetails(username:)",
+            "key.namelength" : 42,
+            "key.nameoffset" : 1001,
+            "key.offset" : 996,
+            "key.parsed_declaration" : "private func navigateToProfileDetails(username: String)",
+            "key.parsed_scope.end" : 50,
+            "key.parsed_scope.start" : 42,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(AppCoordinator) -> (String) -> ()",
+            "key.typeusr" : "$s8usernameySS_tcD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC24navigateToProfileDetails33_2C7384110C341CDFB04167230BE17C2ELL8usernameySS_tF"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private func getViewControllerWith(identifier: <Type usr=\"s:SS\">String<\/Type>) -&gt; <Type usr=\"c:objc(cs)UIViewController\">UIViewController<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 1344
+              }
+            ],
+            "key.bodylength" : 193,
+            "key.bodyoffset" : 1420,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>getViewControllerWith<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>identifier<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.class usr=\"c:objc(cs)UIViewController\">UIViewController<\/ref.class><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 262,
+            "key.name" : "getViewControllerWith(identifier:)",
+            "key.namelength" : 41,
+            "key.nameoffset" : 1357,
+            "key.offset" : 1352,
+            "key.parsed_declaration" : "private func getViewControllerWith(identifier: String) -> UIViewController",
+            "key.parsed_scope.end" : 57,
+            "key.parsed_scope.start" : 52,
+            "key.substructure" : [
+              {
+                "key.annotated_decl" : "<Declaration>let storyboard: <Type usr=\"c:objc(cs)UIStoryboard\">UIStoryboard<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+                "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>storyboard<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UIStoryboard\">UIStoryboard<\/ref.class><\/decl.var.type><\/decl.var.local>",
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 74,
+                "key.name" : "storyboard",
+                "key.namelength" : 10,
+                "key.nameoffset" : 1433,
+                "key.offset" : 1429,
+                "key.parsed_declaration" : "let storyboard = UIStoryboard(name: Constants.storyboardName, bundle: nil)",
+                "key.parsed_scope.end" : 53,
+                "key.parsed_scope.start" : 53,
+                "key.typename" : "UIStoryboard",
+                "key.typeusr" : "$sSo12UIStoryboardCD",
+                "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC21getViewControllerWith33_2C7384110C341CDFB04167230BE17C2ELL10identifierSo06UIViewI0CSS_tF10storyboardL_So12UIStoryboardCvp"
+              },
+              {
+                "key.annotated_decl" : "<Declaration>let vc: <Type usr=\"c:objc(cs)UIViewController\">UIViewController<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+                "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>vc<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UIViewController\">UIViewController<\/ref.class><\/decl.var.type><\/decl.var.local>",
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 69,
+                "key.name" : "vc",
+                "key.namelength" : 2,
+                "key.nameoffset" : 1516,
+                "key.offset" : 1512,
+                "key.parsed_declaration" : "let vc = storyboard.instantiateViewController(identifier: identifier)",
+                "key.parsed_scope.end" : 54,
+                "key.parsed_scope.start" : 54,
+                "key.typename" : "UIViewController",
+                "key.typeusr" : "$sSo16UIViewControllerCD",
+                "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC21getViewControllerWith33_2C7384110C341CDFB04167230BE17C2ELL10identifierSo06UIViewI0CSS_tF2vcL_AHvp"
+              }
+            ],
+            "key.typename" : "(AppCoordinator) -> (String) -> UIViewController",
+            "key.typeusr" : "$s10identifierSo16UIViewControllerCSS_tcD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC21getViewControllerWith33_2C7384110C341CDFB04167230BE17C2ELL10identifierSo06UIViewI0CSS_tF"
+          }
+        ],
+        "key.typename" : "AppCoordinator.Type",
+        "key.typeusr" : "$s24Mobile_Take_Home_Project14AppCoordinatorCmD",
+        "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC"
+      },
+      {
+        "key.annotated_decl" : "<Declaration>class AppCoordinator<\/Declaration>",
+        "key.bodylength" : 151,
+        "key.bodyoffset" : 1669,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 23,
+            "key.offset" : 1644
+          }
+        ],
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>AppCoordinator<\/decl.name><\/decl.class>",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "HandleInputFlowDelegate"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.extension",
+        "key.length" : 203,
+        "key.name" : "AppCoordinator",
+        "key.namelength" : 14,
+        "key.nameoffset" : 1628,
+        "key.offset" : 1618,
+        "key.parsed_declaration" : "extension AppCoordinator: HandleInputFlowDelegate",
+        "key.parsed_scope.end" : 64,
+        "key.parsed_scope.start" : 60,
+        "key.substructure" : [
+          {
+            "key.annotated_decl" : "<Declaration>func handleInputShowResults(viewController: <Type usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)HandleInputViewController\">HandleInputViewController<\/Type>, handle: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+            "key.bodylength" : 56,
+            "key.bodyoffset" : 1762,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/Coordinator\/AppCoordinator.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>handleInputShowResults<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>viewController<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.class usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)HandleInputViewController\">HandleInputViewController<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>handle<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 145,
+            "key.name" : "handleInputShowResults(viewController:handle:)",
+            "key.namelength" : 81,
+            "key.nameoffset" : 1679,
+            "key.offset" : 1674,
+            "key.overrides" : [
+              {
+                "key.usr" : "s:24Mobile_Take_Home_Project23HandleInputFlowDelegateP06handleF11ShowResults14viewController0I0yAA0ef4ViewM0C_SStF"
+              }
+            ],
+            "key.parsed_declaration" : "func handleInputShowResults(viewController: HandleInputViewController, handle: String)",
+            "key.parsed_scope.end" : 63,
+            "key.parsed_scope.start" : 61,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(AppCoordinator) -> (HandleInputViewController, String) -> ()",
+            "key.typeusr" : "$s14viewController6handley24Mobile_Take_Home_Project015HandleInputViewB0C_SStcD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC22handleInputShowResults14viewController0G0yAA06Handleh4ViewL0C_SStF"
+          }
+        ],
+        "key.typename" : "AppCoordinator.Type",
+        "key.typeusr" : "$s24Mobile_Take_Home_Project14AppCoordinatorCmD",
+        "key.usr" : "s:24Mobile_Take_Home_Project14AppCoordinatorC"
+      }
+    ]
+  }
+}, {
+  "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/HandleInputViewController.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 762,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>protocol HandleInputFlowDelegate : AnyObject<\/Declaration>",
+        "key.bodylength" : 92,
+        "key.bodyoffset" : 175,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 5,
+            "key.offset" : 168
+          }
+        ],
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/HandleInputViewController.swift",
+        "key.fully_annotated_decl" : "<decl.protocol><syntaxtype.keyword>protocol<\/syntaxtype.keyword> <decl.name>HandleInputFlowDelegate<\/decl.name> : AnyObject<\/decl.protocol>",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "class"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.protocol",
+        "key.length" : 134,
+        "key.name" : "HandleInputFlowDelegate",
+        "key.namelength" : 23,
+        "key.nameoffset" : 143,
+        "key.offset" : 134,
+        "key.parsed_declaration" : "protocol HandleInputFlowDelegate: class",
+        "key.parsed_scope.end" : 12,
+        "key.parsed_scope.start" : 10,
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func handleInputShowResults(viewController: <Type usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)HandleInputViewController\">HandleInputViewController<\/Type>, handle: <Type usr=\"s:SS\">String<\/Type>)<\/Declaration>",
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/HandleInputViewController.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>handleInputShowResults<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>viewController<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.class usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)HandleInputViewController\">HandleInputViewController<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>handle<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 86,
+            "key.name" : "handleInputShowResults(viewController:handle:)",
+            "key.namelength" : 81,
+            "key.nameoffset" : 185,
+            "key.offset" : 180,
+            "key.parsed_declaration" : "func handleInputShowResults(viewController: HandleInputViewController, handle: String)",
+            "key.parsed_scope.end" : 11,
+            "key.parsed_scope.start" : 11,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "<Self where Self : HandleInputFlowDelegate> (Self) -> (HandleInputViewController, String) -> ()",
+            "key.typeusr" : "$s14viewController6handley24Mobile_Take_Home_Project015HandleInputViewB0C_SStcD",
+            "key.usr" : "s:24Mobile_Take_Home_Project23HandleInputFlowDelegateP06handleF11ShowResults14viewController0I0yAA0ef4ViewM0C_SStF"
+          }
+        ],
+        "key.typename" : "HandleInputFlowDelegate.Protocol",
+        "key.typeusr" : "$s24Mobile_Take_Home_Project23HandleInputFlowDelegate_pmD",
+        "key.usr" : "s:24Mobile_Take_Home_Project23HandleInputFlowDelegateP"
+      },
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>class HandleInputViewController : <Type usr=\"c:objc(cs)UIViewController\">UIViewController<\/Type><\/Declaration>",
+        "key.bodylength" : 438,
+        "key.bodyoffset" : 321,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 16,
+            "key.offset" : 303
+          }
+        ],
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/HandleInputViewController.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>HandleInputViewController<\/decl.name> : <ref.class usr=\"c:objc(cs)UIViewController\">UIViewController<\/ref.class><\/decl.class>",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UIViewController"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 490,
+        "key.name" : "HandleInputViewController",
+        "key.namelength" : 25,
+        "key.nameoffset" : 276,
+        "key.offset" : 270,
+        "key.parsed_declaration" : "class HandleInputViewController: UIViewController",
+        "key.parsed_scope.end" : 31,
+        "key.parsed_scope.start" : 14,
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>weak var flowDelegate: <Type usr=\"s:24Mobile_Take_Home_Project23HandleInputFlowDelegateP\">HandleInputFlowDelegate<\/Type>?<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.weak",
+                "key.length" : 4,
+                "key.offset" : 331
+              }
+            ],
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/HandleInputViewController.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>weak<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>flowDelegate<\/decl.name>: <decl.var.type><ref.protocol usr=\"s:24Mobile_Take_Home_Project23HandleInputFlowDelegateP\">HandleInputFlowDelegate<\/ref.protocol>?<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 42,
+            "key.name" : "flowDelegate",
+            "key.namelength" : 12,
+            "key.nameoffset" : 340,
+            "key.offset" : 336,
+            "key.parsed_declaration" : "weak var flowDelegate: HandleInputFlowDelegate?",
+            "key.parsed_scope.end" : 16,
+            "key.parsed_scope.start" : 16,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "HandleInputFlowDelegate?",
+            "key.typeusr" : "$s24Mobile_Take_Home_Project23HandleInputFlowDelegate_pSgD",
+            "key.usr" : "s:24Mobile_Take_Home_Project25HandleInputViewControllerC12flowDelegateAA0ef4FlowJ0_pSgvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>@IBOutlet weak var handleTextField: <Type usr=\"c:objc(cs)UITextField\">UITextField<\/Type>!<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.weak",
+                "key.length" : 4,
+                "key.offset" : 394
+              },
+              {
+                "key.attribute" : "source.decl.attribute.iboutlet",
+                "key.length" : 9,
+                "key.offset" : 384
+              }
+            ],
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/HandleInputViewController.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@IBOutlet<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>weak<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>handleTextField<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UITextField\">UITextField<\/ref.class>!<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 33,
+            "key.name" : "handleTextField",
+            "key.namelength" : 15,
+            "key.nameoffset" : 403,
+            "key.offset" : 399,
+            "key.parsed_declaration" : "@IBOutlet weak var handleTextField: UITextField!",
+            "key.parsed_scope.end" : 18,
+            "key.parsed_scope.start" : 18,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UITextField?",
+            "key.typeusr" : "$sSo11UITextFieldCSgD",
+            "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)HandleInputViewController(py)handleTextField"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>@IBOutlet weak var seeDetailsButton: <Type usr=\"c:objc(cs)UIButton\">UIButton<\/Type>!<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.weak",
+                "key.length" : 4,
+                "key.offset" : 447
+              },
+              {
+                "key.attribute" : "source.decl.attribute.iboutlet",
+                "key.length" : 9,
+                "key.offset" : 437
+              }
+            ],
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/HandleInputViewController.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@IBOutlet<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>weak<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>seeDetailsButton<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UIButton\">UIButton<\/ref.class>!<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 31,
+            "key.name" : "seeDetailsButton",
+            "key.namelength" : 16,
+            "key.nameoffset" : 456,
+            "key.offset" : 452,
+            "key.parsed_declaration" : "@IBOutlet weak var seeDetailsButton: UIButton!",
+            "key.parsed_scope.end" : 19,
+            "key.parsed_scope.start" : 19,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UIButton?",
+            "key.typeusr" : "$sSo8UIButtonCSgD",
+            "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)HandleInputViewController(py)seeDetailsButton"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 13,
+            "key.name" : "MARK: Actions",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 497
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>@IBAction func seeDetailsTapped(_ sender: Any)<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.ibaction",
+                "key.length" : 9,
+                "key.offset" : 516
+              }
+            ],
+            "key.bodylength" : 193,
+            "key.bodyoffset" : 564,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/HandleInputViewController.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@IBAction<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>seeDetailsTapped<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>sender<\/decl.var.parameter.name>: <decl.var.parameter.type><syntaxtype.keyword>Any<\/syntaxtype.keyword><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 232,
+            "key.name" : "seeDetailsTapped(_:)",
+            "key.namelength" : 31,
+            "key.nameoffset" : 531,
+            "key.offset" : 526,
+            "key.parsed_declaration" : "@IBAction func seeDetailsTapped(_ sender: Any)",
+            "key.parsed_scope.end" : 30,
+            "key.parsed_scope.start" : 24,
+            "key.selector_name" : "seeDetailsTapped:",
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(HandleInputViewController) -> (Any) -> ()",
+            "key.typeusr" : "$syyypcD",
+            "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)HandleInputViewController(im)seeDetailsTapped:"
+          }
+        ],
+        "key.typename" : "HandleInputViewController.Type",
+        "key.typeusr" : "$s24Mobile_Take_Home_Project25HandleInputViewControllerCmD",
+        "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)HandleInputViewController"
+      }
+    ]
+  }
+}, {
+  "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/ProfileDetailsViewController.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 1711,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>class ProfileDetailsViewController : <Type usr=\"c:objc(cs)UIViewController\">UIViewController<\/Type><\/Declaration>",
+        "key.bodylength" : 1518,
+        "key.bodyoffset" : 191,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 16,
+            "key.offset" : 173
+          }
+        ],
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/ProfileDetailsViewController.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>ProfileDetailsViewController<\/decl.name> : <ref.class usr=\"c:objc(cs)UIViewController\">UIViewController<\/ref.class><\/decl.class>",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UIViewController"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 1573,
+        "key.name" : "ProfileDetailsViewController",
+        "key.namelength" : 28,
+        "key.nameoffset" : 143,
+        "key.offset" : 137,
+        "key.parsed_declaration" : "class ProfileDetailsViewController: UIViewController",
+        "key.parsed_scope.end" : 68,
+        "key.parsed_scope.start" : 10,
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>var username: <Type usr=\"s:SS\">String<\/Type>!<\/Declaration>",
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/ProfileDetailsViewController.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>username<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>!<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 21,
+            "key.name" : "username",
+            "key.namelength" : 8,
+            "key.nameoffset" : 233,
+            "key.offset" : 229,
+            "key.parsed_declaration" : "var username: String!",
+            "key.parsed_scope.end" : 13,
+            "key.parsed_scope.start" : 13,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "String?",
+            "key.typeusr" : "$sSSSgD",
+            "key.usr" : "s:24Mobile_Take_Home_Project28ProfileDetailsViewControllerC8usernameSSSgvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>@IBOutlet weak var stackView: <Type usr=\"c:objc(cs)UIStackView\">UIStackView<\/Type>!<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.weak",
+                "key.length" : 4,
+                "key.offset" : 266
+              },
+              {
+                "key.attribute" : "source.decl.attribute.iboutlet",
+                "key.length" : 9,
+                "key.offset" : 256
+              }
+            ],
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/ProfileDetailsViewController.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@IBOutlet<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>weak<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>stackView<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UIStackView\">UIStackView<\/ref.class>!<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 27,
+            "key.name" : "stackView",
+            "key.namelength" : 9,
+            "key.nameoffset" : 275,
+            "key.offset" : 271,
+            "key.parsed_declaration" : "@IBOutlet weak var stackView: UIStackView!",
+            "key.parsed_scope.end" : 15,
+            "key.parsed_scope.start" : 15,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UIStackView?",
+            "key.typeusr" : "$sSo11UIStackViewCSgD",
+            "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)ProfileDetailsViewController(py)stackView"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>var profileDetails: <Type usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)ProfileDetailsView\">ProfileDetailsView<\/Type><\/Declaration>",
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/ProfileDetailsViewController.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>profileDetails<\/decl.name>: <decl.var.type><ref.class usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)ProfileDetailsView\">ProfileDetailsView<\/ref.class><\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 50,
+            "key.name" : "profileDetails",
+            "key.namelength" : 14,
+            "key.nameoffset" : 307,
+            "key.offset" : 303,
+            "key.parsed_declaration" : "var profileDetails = ProfileDetailsView.loadView()",
+            "key.parsed_scope.end" : 16,
+            "key.parsed_scope.start" : 16,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "ProfileDetailsView",
+            "key.typeusr" : "$s24Mobile_Take_Home_Project18ProfileDetailsViewCD",
+            "key.usr" : "s:24Mobile_Take_Home_Project28ProfileDetailsViewControllerC07profileF0AA0efG0Cvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>var profileError: <Type usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)ProfileErrorView\">ProfileErrorView<\/Type><\/Declaration>",
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/ProfileDetailsViewController.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>profileError<\/decl.name>: <decl.var.type><ref.class usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)ProfileErrorView\">ProfileErrorView<\/ref.class><\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 46,
+            "key.name" : "profileError",
+            "key.namelength" : 12,
+            "key.nameoffset" : 362,
+            "key.offset" : 358,
+            "key.parsed_declaration" : "var profileError = ProfileErrorView.loadView()",
+            "key.parsed_scope.end" : 17,
+            "key.parsed_scope.start" : 17,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "ProfileErrorView",
+            "key.typeusr" : "$s24Mobile_Take_Home_Project16ProfileErrorViewCD",
+            "key.usr" : "s:24Mobile_Take_Home_Project28ProfileDetailsViewControllerC12profileErrorAA0ejG0Cvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>@IBOutlet weak var activityIndicatorView: <Type usr=\"c:objc(cs)UIActivityIndicatorView\">UIActivityIndicatorView<\/Type>!<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.weak",
+                "key.length" : 4,
+                "key.offset" : 425
+              },
+              {
+                "key.attribute" : "source.decl.attribute.iboutlet",
+                "key.length" : 9,
+                "key.offset" : 415
+              }
+            ],
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/ProfileDetailsViewController.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@IBOutlet<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>weak<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>activityIndicatorView<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UIActivityIndicatorView\">UIActivityIndicatorView<\/ref.class>!<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 51,
+            "key.name" : "activityIndicatorView",
+            "key.namelength" : 21,
+            "key.nameoffset" : 434,
+            "key.offset" : 430,
+            "key.parsed_declaration" : "@IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!",
+            "key.parsed_scope.end" : 20,
+            "key.parsed_scope.start" : 20,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UIActivityIndicatorView?",
+            "key.typeusr" : "$sSo23UIActivityIndicatorViewCSgD",
+            "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)ProfileDetailsViewController(py)activityIndicatorView"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private let service: <Type usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)TwitterService\">TwitterService<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 491
+              }
+            ],
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/ProfileDetailsViewController.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>service<\/decl.name>: <decl.var.type><ref.class usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)TwitterService\">TwitterService<\/ref.class><\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 30,
+            "key.name" : "service",
+            "key.namelength" : 7,
+            "key.nameoffset" : 503,
+            "key.offset" : 499,
+            "key.parsed_declaration" : "private let service = TwitterService()",
+            "key.parsed_scope.end" : 22,
+            "key.parsed_scope.start" : 22,
+            "key.typename" : "TwitterService",
+            "key.typeusr" : "$s24Mobile_Take_Home_Project14TwitterServiceCD",
+            "key.usr" : "s:24Mobile_Take_Home_Project28ProfileDetailsViewControllerC7service33_4178561505D5D2AA5FFD447A3DA7C3DELLAA14TwitterServiceCvp"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 15,
+            "key.name" : "MARK: Lifecycle",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 542
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>override func viewDidLoad()<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override",
+                "key.length" : 8,
+                "key.offset" : 567
+              }
+            ],
+            "key.bodylength" : 251,
+            "key.bodyoffset" : 596,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/ProfileDetailsViewController.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>viewDidLoad<\/decl.name>()<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 272,
+            "key.name" : "viewDidLoad()",
+            "key.namelength" : 13,
+            "key.nameoffset" : 581,
+            "key.offset" : 576,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(cs)UIViewController(im)viewDidLoad"
+              }
+            ],
+            "key.parsed_declaration" : "override func viewDidLoad()",
+            "key.parsed_scope.end" : 36,
+            "key.parsed_scope.start" : 26,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(ProfileDetailsViewController) -> () -> ()",
+            "key.typeusr" : "$syycD",
+            "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)ProfileDetailsViewController(im)viewDidLoad"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 21,
+            "key.name" : "MARK: Private methods",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 861
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private func fetchUserProfile()<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 888
+              }
+            ],
+            "key.bodylength" : 667,
+            "key.bodyoffset" : 921,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/ProfileDetailsViewController.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>fetchUserProfile<\/decl.name>()<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 693,
+            "key.name" : "fetchUserProfile()",
+            "key.namelength" : 18,
+            "key.nameoffset" : 901,
+            "key.offset" : 896,
+            "key.parsed_declaration" : "private func fetchUserProfile()",
+            "key.parsed_scope.end" : 62,
+            "key.parsed_scope.start" : 40,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(ProfileDetailsViewController) -> () -> ()",
+            "key.typeusr" : "$syycD",
+            "key.usr" : "s:24Mobile_Take_Home_Project28ProfileDetailsViewControllerC09fetchUserE033_4178561505D5D2AA5FFD447A3DA7C3DELLyyF"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private func showError()<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 1599
+              }
+            ],
+            "key.bodylength" : 82,
+            "key.bodyoffset" : 1625,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Controller\/ViewControllers\/ProfileDetailsViewController.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>showError<\/decl.name>()<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 101,
+            "key.name" : "showError()",
+            "key.namelength" : 11,
+            "key.nameoffset" : 1612,
+            "key.offset" : 1607,
+            "key.parsed_declaration" : "private func showError()",
+            "key.parsed_scope.end" : 67,
+            "key.parsed_scope.start" : 64,
+            "key.typename" : "(ProfileDetailsViewController) -> () -> ()",
+            "key.typeusr" : "$syycD",
+            "key.usr" : "s:24Mobile_Take_Home_Project28ProfileDetailsViewControllerC9showError33_4178561505D5D2AA5FFD447A3DA7C3DELLyyF"
+          }
+        ],
+        "key.typename" : "ProfileDetailsViewController.Type",
+        "key.typeusr" : "$s24Mobile_Take_Home_Project28ProfileDetailsViewControllerCmD",
+        "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)ProfileDetailsViewController"
+      }
+    ]
+  }
+}, {
+  "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Entities\/TwitterProfile.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 229,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>struct TwitterProfile<\/Declaration>",
+        "key.bodylength" : 76,
+        "key.bodyoffset" : 151,
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Entities\/TwitterProfile.swift",
+        "key.fully_annotated_decl" : "<decl.struct><syntaxtype.keyword>struct<\/syntaxtype.keyword> <decl.name>TwitterProfile<\/decl.name><\/decl.struct>",
+        "key.kind" : "source.lang.swift.decl.struct",
+        "key.length" : 100,
+        "key.name" : "TwitterProfile",
+        "key.namelength" : 14,
+        "key.nameoffset" : 135,
+        "key.offset" : 128,
+        "key.parsed_declaration" : "struct TwitterProfile",
+        "key.parsed_scope.end" : 14,
+        "key.parsed_scope.start" : 10,
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>let username: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Entities\/TwitterProfile.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>username<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 20,
+            "key.name" : "username",
+            "key.namelength" : 8,
+            "key.nameoffset" : 160,
+            "key.offset" : 156,
+            "key.parsed_declaration" : "let username: String",
+            "key.parsed_scope.end" : 11,
+            "key.parsed_scope.start" : 11,
+            "key.typename" : "String",
+            "key.typeusr" : "$sSSD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14TwitterProfileV8usernameSSvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>let photoURL: <Type usr=\"s:10Foundation3URLV\">URL<\/Type>?<\/Declaration>",
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Entities\/TwitterProfile.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>photoURL<\/decl.name>: <decl.var.type><ref.struct usr=\"s:10Foundation3URLV\">URL<\/ref.struct>?<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 18,
+            "key.name" : "photoURL",
+            "key.namelength" : 8,
+            "key.nameoffset" : 185,
+            "key.offset" : 181,
+            "key.parsed_declaration" : "let photoURL: URL?",
+            "key.parsed_scope.end" : 12,
+            "key.parsed_scope.start" : 12,
+            "key.typename" : "URL?",
+            "key.typeusr" : "$s10Foundation3URLVSgD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14TwitterProfileV8photoURL10Foundation0H0VSgvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>let lastTweet: <Type usr=\"s:SS\">String<\/Type>?<\/Declaration>",
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Entities\/TwitterProfile.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>lastTweet<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>?<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 22,
+            "key.name" : "lastTweet",
+            "key.namelength" : 9,
+            "key.nameoffset" : 208,
+            "key.offset" : 204,
+            "key.parsed_declaration" : "let lastTweet: String?",
+            "key.parsed_scope.end" : 13,
+            "key.parsed_scope.start" : 13,
+            "key.typename" : "String?",
+            "key.typeusr" : "$sSSSgD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14TwitterProfileV9lastTweetSSSgvp"
+          }
+        ],
+        "key.typename" : "TwitterProfile.Type",
+        "key.typeusr" : "$s24Mobile_Take_Home_Project14TwitterProfileVmD",
+        "key.usr" : "s:24Mobile_Take_Home_Project14TwitterProfileV"
+      }
+    ]
+  }
+}, {
+  "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Mappers\/TwitterAPIMapper.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 1671,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>class TwitterAPIMapper<\/Declaration>",
+        "key.bodylength" : 1515,
+        "key.bodyoffset" : 154,
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Mappers\/TwitterAPIMapper.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>TwitterAPIMapper<\/decl.name><\/decl.class>",
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 1540,
+        "key.name" : "TwitterAPIMapper",
+        "key.namelength" : 16,
+        "key.nameoffset" : 136,
+        "key.offset" : 130,
+        "key.parsed_declaration" : "class TwitterAPIMapper",
+        "key.parsed_scope.end" : 59,
+        "key.parsed_scope.start" : 10,
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private struct <Type usr=\"s:24Mobile_Take_Home_Project16TwitterAPIMapperC\">TwitterAPIMapper<\/Type>.Constants<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 164
+              }
+            ],
+            "key.bodylength" : 216,
+            "key.bodyoffset" : 190,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Mappers\/TwitterAPIMapper.swift",
+            "key.fully_annotated_decl" : "<decl.struct><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <ref.class usr=\"s:24Mobile_Take_Home_Project16TwitterAPIMapperC\">TwitterAPIMapper<\/ref.class>.<decl.name>Constants<\/decl.name><\/decl.struct>",
+            "key.kind" : "source.lang.swift.decl.struct",
+            "key.length" : 235,
+            "key.name" : "Constants",
+            "key.namelength" : 9,
+            "key.nameoffset" : 179,
+            "key.offset" : 172,
+            "key.parsed_declaration" : "private struct Constants",
+            "key.parsed_scope.end" : 19,
+            "key.parsed_scope.start" : 12,
+            "key.substructure" : [
+              {
+                "key.accessibility" : "source.lang.swift.accessibility.internal",
+                "key.annotated_decl" : "<Declaration>static let screenName: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Mappers\/TwitterAPIMapper.swift",
+                "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>screenName<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+                "key.kind" : "source.lang.swift.decl.var.static",
+                "key.length" : 30,
+                "key.name" : "screenName",
+                "key.namelength" : 10,
+                "key.nameoffset" : 210,
+                "key.offset" : 199,
+                "key.parsed_declaration" : "static let screenName = \"name\"",
+                "key.parsed_scope.end" : 13,
+                "key.parsed_scope.start" : 13,
+                "key.typename" : "String",
+                "key.typeusr" : "$sSSD",
+                "key.usr" : "s:24Mobile_Take_Home_Project16TwitterAPIMapperC9Constants33_7D527B29E23EE686692EA35666722685LLV10screenNameSSvpZ"
+              },
+              {
+                "key.accessibility" : "source.lang.swift.accessibility.internal",
+                "key.annotated_decl" : "<Declaration>static let photoURL: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Mappers\/TwitterAPIMapper.swift",
+                "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>photoURL<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+                "key.kind" : "source.lang.swift.decl.var.static",
+                "key.length" : 47,
+                "key.name" : "photoURL",
+                "key.namelength" : 8,
+                "key.nameoffset" : 249,
+                "key.offset" : 238,
+                "key.parsed_declaration" : "static let photoURL = \"profile_image_url_https\"",
+                "key.parsed_scope.end" : 14,
+                "key.parsed_scope.start" : 14,
+                "key.typename" : "String",
+                "key.typeusr" : "$sSSD",
+                "key.usr" : "s:24Mobile_Take_Home_Project16TwitterAPIMapperC9Constants33_7D527B29E23EE686692EA35666722685LLV8photoURLSSvpZ"
+              },
+              {
+                "key.accessibility" : "source.lang.swift.accessibility.internal",
+                "key.annotated_decl" : "<Declaration>static let errors: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Mappers\/TwitterAPIMapper.swift",
+                "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>errors<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+                "key.kind" : "source.lang.swift.decl.var.static",
+                "key.length" : 28,
+                "key.name" : "errors",
+                "key.namelength" : 6,
+                "key.nameoffset" : 305,
+                "key.offset" : 294,
+                "key.parsed_declaration" : "static let errors = \"errors\"",
+                "key.parsed_scope.end" : 15,
+                "key.parsed_scope.start" : 15,
+                "key.typename" : "String",
+                "key.typeusr" : "$sSSD",
+                "key.usr" : "s:24Mobile_Take_Home_Project16TwitterAPIMapperC9Constants33_7D527B29E23EE686692EA35666722685LLV6errorsSSvpZ"
+              },
+              {
+                "key.accessibility" : "source.lang.swift.accessibility.internal",
+                "key.annotated_decl" : "<Declaration>static let status: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Mappers\/TwitterAPIMapper.swift",
+                "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>status<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+                "key.kind" : "source.lang.swift.decl.var.static",
+                "key.length" : 28,
+                "key.name" : "status",
+                "key.namelength" : 6,
+                "key.nameoffset" : 351,
+                "key.offset" : 340,
+                "key.parsed_declaration" : "static let status = \"status\"",
+                "key.parsed_scope.end" : 17,
+                "key.parsed_scope.start" : 17,
+                "key.typename" : "String",
+                "key.typeusr" : "$sSSD",
+                "key.usr" : "s:24Mobile_Take_Home_Project16TwitterAPIMapperC9Constants33_7D527B29E23EE686692EA35666722685LLV6statusSSvpZ"
+              },
+              {
+                "key.accessibility" : "source.lang.swift.accessibility.internal",
+                "key.annotated_decl" : "<Declaration>static let text: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Mappers\/TwitterAPIMapper.swift",
+                "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>text<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+                "key.kind" : "source.lang.swift.decl.var.static",
+                "key.length" : 24,
+                "key.name" : "text",
+                "key.namelength" : 4,
+                "key.nameoffset" : 388,
+                "key.offset" : 377,
+                "key.parsed_declaration" : "static let text = \"text\"",
+                "key.parsed_scope.end" : 18,
+                "key.parsed_scope.start" : 18,
+                "key.typename" : "String",
+                "key.typeusr" : "$sSSD",
+                "key.usr" : "s:24Mobile_Take_Home_Project16TwitterAPIMapperC9Constants33_7D527B29E23EE686692EA35666722685LLV4textSSvpZ"
+              }
+            ],
+            "key.typename" : "TwitterAPIMapper.Constants.Type",
+            "key.typeusr" : "$s24Mobile_Take_Home_Project16TwitterAPIMapperC9Constants33_7D527B29E23EE686692EA35666722685LLVmD",
+            "key.usr" : "s:24Mobile_Take_Home_Project16TwitterAPIMapperC9Constants33_7D527B29E23EE686692EA35666722685LLV"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 13,
+            "key.name" : "MARK: Methods",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 420
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func hasError(response: [<Type usr=\"s:SS\">String<\/Type> : Any]) -&gt; <Type usr=\"s:Sb\">Bool<\/Type><\/Declaration>",
+            "key.bodylength" : 116,
+            "key.bodyoffset" : 491,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Mappers\/TwitterAPIMapper.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>hasError<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>response<\/decl.var.parameter.argument_label>: <decl.var.parameter.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct> : <syntaxtype.keyword>Any<\/syntaxtype.keyword>]<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 165,
+            "key.name" : "hasError(response:)",
+            "key.namelength" : 33,
+            "key.nameoffset" : 448,
+            "key.offset" : 443,
+            "key.parsed_declaration" : "func hasError(response: [String: Any]) -> Bool",
+            "key.parsed_scope.end" : 29,
+            "key.parsed_scope.start" : 23,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(TwitterAPIMapper) -> ([String : Any]) -> Bool",
+            "key.typeusr" : "$s8responseSbSDySSypG_tcD",
+            "key.usr" : "s:24Mobile_Take_Home_Project16TwitterAPIMapperC8hasError8responseSbSDySSypG_tF"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func parseProfile(response: [<Type usr=\"s:SS\">String<\/Type> : Any]) -&gt; <Type usr=\"s:24Mobile_Take_Home_Project14TwitterProfileV\">TwitterProfile<\/Type>?<\/Declaration>",
+            "key.bodylength" : 637,
+            "key.bodyoffset" : 681,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Mappers\/TwitterAPIMapper.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>parseProfile<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>response<\/decl.var.parameter.argument_label>: <decl.var.parameter.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct> : <syntaxtype.keyword>Any<\/syntaxtype.keyword>]<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:24Mobile_Take_Home_Project14TwitterProfileV\">TwitterProfile<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 701,
+            "key.name" : "parseProfile(response:)",
+            "key.namelength" : 37,
+            "key.nameoffset" : 623,
+            "key.offset" : 618,
+            "key.parsed_declaration" : "func parseProfile(response: [String: Any]) -> TwitterProfile?",
+            "key.parsed_scope.end" : 45,
+            "key.parsed_scope.start" : 31,
+            "key.substructure" : [
+              {
+                "key.annotated_decl" : "<Declaration>var photoURL: <Type usr=\"s:10Foundation3URLV\">URL<\/Type>?<\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Mappers\/TwitterAPIMapper.swift",
+                "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>photoURL<\/decl.name>: <decl.var.type><ref.struct usr=\"s:10Foundation3URLV\">URL<\/ref.struct>?<\/decl.var.type><\/decl.var.local>",
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 18,
+                "key.name" : "photoURL",
+                "key.namelength" : 8,
+                "key.nameoffset" : 814,
+                "key.offset" : 810,
+                "key.parsed_declaration" : "var photoURL: URL?",
+                "key.parsed_scope.end" : 36,
+                "key.parsed_scope.start" : 36,
+                "key.typename" : "URL?",
+                "key.typeusr" : "$s10Foundation3URLVSgD",
+                "key.usr" : "s:24Mobile_Take_Home_Project16TwitterAPIMapperC12parseProfile8responseAA0eH0VSgSDySSypG_tF8photoURLL_10Foundation0K0VSgvp"
+              },
+              {
+                "key.annotated_decl" : "<Declaration>let tweet: <Type usr=\"s:SS\">String<\/Type>?<\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Mappers\/TwitterAPIMapper.swift",
+                "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>tweet<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct>?<\/decl.var.type><\/decl.var.local>",
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 53,
+                "key.name" : "tweet",
+                "key.namelength" : 5,
+                "key.nameoffset" : 1175,
+                "key.offset" : 1171,
+                "key.parsed_declaration" : "let tweet = parseTweetFromProfile(response: response)",
+                "key.parsed_scope.end" : 42,
+                "key.parsed_scope.start" : 42,
+                "key.typename" : "String?",
+                "key.typeusr" : "$sSSSgD",
+                "key.usr" : "s:24Mobile_Take_Home_Project16TwitterAPIMapperC12parseProfile8responseAA0eH0VSgSDySSypG_tF5tweetL_SSSgvp"
+              }
+            ],
+            "key.typename" : "(TwitterAPIMapper) -> ([String : Any]) -> TwitterProfile?",
+            "key.typeusr" : "$s8response24Mobile_Take_Home_Project14TwitterProfileVSgSDySSypG_tcD",
+            "key.usr" : "s:24Mobile_Take_Home_Project16TwitterAPIMapperC12parseProfile8responseAA0eH0VSgSDySSypG_tF"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 21,
+            "key.name" : "MARK: Private methods",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 1337
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private func parseTweetFromProfile(response: [<Type usr=\"s:SS\">String<\/Type> : Any]) -&gt; <Type usr=\"s:SS\">String<\/Type>?<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 1368
+              }
+            ],
+            "key.bodylength" : 227,
+            "key.bodyoffset" : 1440,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Mappers\/TwitterAPIMapper.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>parseTweetFromProfile<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>response<\/decl.var.parameter.argument_label>: <decl.var.parameter.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct> : <syntaxtype.keyword>Any<\/syntaxtype.keyword>]<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:SS\">String<\/ref.struct>?<\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 292,
+            "key.name" : "parseTweetFromProfile(response:)",
+            "key.namelength" : 46,
+            "key.nameoffset" : 1381,
+            "key.offset" : 1376,
+            "key.parsed_declaration" : "private func parseTweetFromProfile(response: [String: Any]) -> String?",
+            "key.parsed_scope.end" : 58,
+            "key.parsed_scope.start" : 50,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(TwitterAPIMapper) -> ([String : Any]) -> String?",
+            "key.typeusr" : "$s8responseSSSgSDySSypG_tcD",
+            "key.usr" : "s:24Mobile_Take_Home_Project16TwitterAPIMapperC21parseTweetFromProfile33_7D527B29E23EE686692EA35666722685LL8responseSSSgSDySSypG_tF"
+          }
+        ],
+        "key.typename" : "TwitterAPIMapper.Type",
+        "key.typeusr" : "$s24Mobile_Take_Home_Project16TwitterAPIMapperCmD",
+        "key.usr" : "s:24Mobile_Take_Home_Project16TwitterAPIMapperC"
+      }
+    ]
+  }
+}, {
+  "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 3172,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.public",
+        "key.annotated_decl" : "<Declaration>public typealias JSONClosure = (_ success: <Type usr=\"s:Sb\">Bool<\/Type>, _ json: [<Type usr=\"s:SS\">String<\/Type> : Any]?) -&gt; <Type usr=\"s:s4Voida\">Void<\/Type><\/Declaration>",
+        "key.attributes" : [
+          {
+            "key.attribute" : "source.decl.attribute.public",
+            "key.length" : 6,
+            "key.offset" : 128
+          }
+        ],
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+        "key.fully_annotated_decl" : "<decl.typealias><syntaxtype.keyword>public<\/syntaxtype.keyword> <syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>JSONClosure<\/decl.name> = (<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>success<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>json<\/decl.var.parameter.name>: <decl.var.parameter.type>[<ref.struct usr=\"s:SS\">String<\/ref.struct> : <syntaxtype.keyword>Any<\/syntaxtype.keyword>]?<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.typealias usr=\"s:s4Voida\">Void<\/ref.typealias><\/decl.function.returntype><\/decl.typealias>",
+        "key.kind" : "source.lang.swift.decl.typealias",
+        "key.length" : 73,
+        "key.name" : "JSONClosure",
+        "key.namelength" : 11,
+        "key.nameoffset" : 145,
+        "key.offset" : 135,
+        "key.parsed_declaration" : "public typealias JSONClosure = (_ success: Bool, _ json: [String: Any]?) -> Void",
+        "key.parsed_scope.end" : 10,
+        "key.parsed_scope.start" : 10,
+        "key.typename" : "((Bool, [String : Any]?) -> ()).Type",
+        "key.typeusr" : "$sySb_SDySSypGSgtcmD",
+        "key.usr" : "s:24Mobile_Take_Home_Project11JSONClosurea"
+      },
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>typealias TwitterProfileCompletion = (_ success: <Type usr=\"s:Sb\">Bool<\/Type>, _ profile: <Type usr=\"s:24Mobile_Take_Home_Project14TwitterProfileV\">TwitterProfile<\/Type>?) -&gt; <Type usr=\"s:s4Voida\">Void<\/Type><\/Declaration>",
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+        "key.fully_annotated_decl" : "<decl.typealias><syntaxtype.keyword>typealias<\/syntaxtype.keyword> <decl.name>TwitterProfileCompletion<\/decl.name> = (<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>success<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:Sb\">Bool<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>profile<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.struct usr=\"s:24Mobile_Take_Home_Project14TwitterProfileV\">TwitterProfile<\/ref.struct>?<\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.typealias usr=\"s:s4Voida\">Void<\/ref.typealias><\/decl.function.returntype><\/decl.typealias>",
+        "key.kind" : "source.lang.swift.decl.typealias",
+        "key.length" : 90,
+        "key.name" : "TwitterProfileCompletion",
+        "key.namelength" : 24,
+        "key.nameoffset" : 220,
+        "key.offset" : 210,
+        "key.parsed_declaration" : "typealias TwitterProfileCompletion = (_ success: Bool, _ profile: TwitterProfile?) -> Void",
+        "key.parsed_scope.end" : 12,
+        "key.parsed_scope.start" : 12,
+        "key.typename" : "((Bool, TwitterProfile?) -> ()).Type",
+        "key.typeusr" : "$sySb_24Mobile_Take_Home_Project14TwitterProfileVSgtcmD",
+        "key.usr" : "s:24Mobile_Take_Home_Project24TwitterProfileCompletiona"
+      },
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>class TwitterService : <Type usr=\"c:objc(cs)NSObject\">NSObject<\/Type><\/Declaration>",
+        "key.bodylength" : 2836,
+        "key.bodyoffset" : 334,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 8,
+            "key.offset" : 324
+          }
+        ],
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>TwitterService<\/decl.name> : <ref.class usr=\"c:objc(cs)NSObject\">NSObject<\/ref.class><\/decl.class>",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "NSObject"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 2869,
+        "key.name" : "TwitterService",
+        "key.namelength" : 14,
+        "key.nameoffset" : 308,
+        "key.offset" : 302,
+        "key.parsed_declaration" : "class TwitterService: NSObject",
+        "key.parsed_scope.end" : 105,
+        "key.parsed_scope.start" : 14,
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private let mapper: <Type usr=\"s:24Mobile_Take_Home_Project16TwitterAPIMapperC\">TwitterAPIMapper<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 344
+              }
+            ],
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>mapper<\/decl.name>: <decl.var.type><ref.class usr=\"s:24Mobile_Take_Home_Project16TwitterAPIMapperC\">TwitterAPIMapper<\/ref.class><\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 31,
+            "key.name" : "mapper",
+            "key.namelength" : 6,
+            "key.nameoffset" : 356,
+            "key.offset" : 352,
+            "key.parsed_declaration" : "private let mapper = TwitterAPIMapper()",
+            "key.parsed_scope.end" : 16,
+            "key.parsed_scope.start" : 16,
+            "key.typename" : "TwitterAPIMapper",
+            "key.typeusr" : "$s24Mobile_Take_Home_Project16TwitterAPIMapperCD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC6mapper33_371D71B0297579488AB0416E14123D93LLAA0E9APIMapperCvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private struct <Type usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)TwitterService\">TwitterService<\/Type>.Constants<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 393
+              }
+            ],
+            "key.bodylength" : 414,
+            "key.bodyoffset" : 419,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+            "key.fully_annotated_decl" : "<decl.struct><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>struct<\/syntaxtype.keyword> <ref.class usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)TwitterService\">TwitterService<\/ref.class>.<decl.name>Constants<\/decl.name><\/decl.struct>",
+            "key.kind" : "source.lang.swift.decl.struct",
+            "key.length" : 433,
+            "key.name" : "Constants",
+            "key.namelength" : 9,
+            "key.nameoffset" : 408,
+            "key.offset" : 401,
+            "key.parsed_declaration" : "private struct Constants",
+            "key.parsed_scope.end" : 28,
+            "key.parsed_scope.start" : 18,
+            "key.substructure" : [
+              {
+                "key.accessibility" : "source.lang.swift.accessibility.internal",
+                "key.annotated_decl" : "<Declaration>struct <Type usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)TwitterService\">TwitterService<\/Type>.<Type usr=\"s:24Mobile_Take_Home_Project14TwitterServiceC9Constants33_371D71B0297579488AB0416E14123D93LLV\">Constants<\/Type>.Authentication<\/Declaration>",
+                "key.bodylength" : 168,
+                "key.bodyoffset" : 451,
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+                "key.fully_annotated_decl" : "<decl.struct><syntaxtype.keyword>struct<\/syntaxtype.keyword> <ref.class usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)TwitterService\">TwitterService<\/ref.class>.<ref.struct usr=\"s:24Mobile_Take_Home_Project14TwitterServiceC9Constants33_371D71B0297579488AB0416E14123D93LLV\">Constants<\/ref.struct>.<decl.name>Authentication<\/decl.name><\/decl.struct>",
+                "key.kind" : "source.lang.swift.decl.struct",
+                "key.length" : 192,
+                "key.name" : "Authentication",
+                "key.namelength" : 14,
+                "key.nameoffset" : 435,
+                "key.offset" : 428,
+                "key.parsed_declaration" : "struct Authentication",
+                "key.parsed_scope.end" : 21,
+                "key.parsed_scope.start" : 19,
+                "key.substructure" : [
+                  {
+                    "key.accessibility" : "source.lang.swift.accessibility.internal",
+                    "key.annotated_decl" : "<Declaration>static let bearerToken: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+                    "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+                    "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>bearerToken<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+                    "key.kind" : "source.lang.swift.decl.var.static",
+                    "key.length" : 146,
+                    "key.name" : "bearerToken",
+                    "key.namelength" : 11,
+                    "key.nameoffset" : 475,
+                    "key.offset" : 464,
+                    "key.parsed_declaration" : "static let bearerToken = \"Bearer AAAAAAAAAAAAAAAAAAAAAAUMMAEAAAAAxR4KNz6Xs4iImfDCIy0Pid3O71M%3DkoKacPemL2YKxQQbcgD42TfdadMZW2SjuujklkoHN6Q05djubB\"",
+                    "key.parsed_scope.end" : 20,
+                    "key.parsed_scope.start" : 20,
+                    "key.typename" : "String",
+                    "key.typeusr" : "$sSSD",
+                    "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC9Constants33_371D71B0297579488AB0416E14123D93LLV14AuthenticationV11bearerTokenSSvpZ"
+                  }
+                ],
+                "key.typename" : "TwitterService.Constants.Authentication.Type",
+                "key.typeusr" : "$s24Mobile_Take_Home_Project14TwitterServiceC9Constants33_371D71B0297579488AB0416E14123D93LLV14AuthenticationVmD",
+                "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC9Constants33_371D71B0297579488AB0416E14123D93LLV14AuthenticationV"
+              },
+              {
+                "key.accessibility" : "source.lang.swift.accessibility.internal",
+                "key.annotated_decl" : "<Declaration>struct <Type usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)TwitterService\">TwitterService<\/Type>.<Type usr=\"s:24Mobile_Take_Home_Project14TwitterServiceC9Constants33_371D71B0297579488AB0416E14123D93LLV\">Constants<\/Type>.Endpoint<\/Declaration>",
+                "key.bodylength" : 172,
+                "key.bodyoffset" : 655,
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+                "key.fully_annotated_decl" : "<decl.struct><syntaxtype.keyword>struct<\/syntaxtype.keyword> <ref.class usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)TwitterService\">TwitterService<\/ref.class>.<ref.struct usr=\"s:24Mobile_Take_Home_Project14TwitterServiceC9Constants33_371D71B0297579488AB0416E14123D93LLV\">Constants<\/ref.struct>.<decl.name>Endpoint<\/decl.name><\/decl.struct>",
+                "key.kind" : "source.lang.swift.decl.struct",
+                "key.length" : 190,
+                "key.name" : "Endpoint",
+                "key.namelength" : 8,
+                "key.nameoffset" : 645,
+                "key.offset" : 638,
+                "key.parsed_declaration" : "struct Endpoint",
+                "key.parsed_scope.end" : 27,
+                "key.parsed_scope.start" : 23,
+                "key.substructure" : [
+                  {
+                    "key.accessibility" : "source.lang.swift.accessibility.internal",
+                    "key.annotated_decl" : "<Declaration>static let twitterAPIEndpoint: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+                    "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+                    "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>twitterAPIEndpoint<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+                    "key.kind" : "source.lang.swift.decl.var.static",
+                    "key.length" : 62,
+                    "key.name" : "twitterAPIEndpoint",
+                    "key.namelength" : 18,
+                    "key.nameoffset" : 679,
+                    "key.offset" : 668,
+                    "key.parsed_declaration" : "static let twitterAPIEndpoint = \"https:\/\/api.twitter.com\/1.1\/\"",
+                    "key.parsed_scope.end" : 24,
+                    "key.parsed_scope.start" : 24,
+                    "key.typename" : "String",
+                    "key.typeusr" : "$sSSD",
+                    "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC9Constants33_371D71B0297579488AB0416E14123D93LLV8EndpointV18twitterAPIEndpointSSvpZ"
+                  },
+                  {
+                    "key.accessibility" : "source.lang.swift.accessibility.internal",
+                    "key.annotated_decl" : "<Declaration>static let getProfile: <Type usr=\"s:SS\">String<\/Type><\/Declaration>",
+                    "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+                    "key.fully_annotated_decl" : "<decl.var.static><syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>getProfile<\/decl.name>: <decl.var.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.type><\/decl.var.static>",
+                    "key.kind" : "source.lang.swift.decl.var.static",
+                    "key.length" : 62,
+                    "key.name" : "getProfile",
+                    "key.namelength" : 10,
+                    "key.nameoffset" : 767,
+                    "key.offset" : 756,
+                    "key.parsed_declaration" : "static let getProfile = twitterAPIEndpoint + \"users\/show.json\"",
+                    "key.parsed_scope.end" : 26,
+                    "key.parsed_scope.start" : 26,
+                    "key.typename" : "String",
+                    "key.typeusr" : "$sSSD",
+                    "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC9Constants33_371D71B0297579488AB0416E14123D93LLV8EndpointV10getProfileSSvpZ"
+                  }
+                ],
+                "key.typename" : "TwitterService.Constants.Endpoint.Type",
+                "key.typeusr" : "$s24Mobile_Take_Home_Project14TwitterServiceC9Constants33_371D71B0297579488AB0416E14123D93LLV8EndpointVmD",
+                "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC9Constants33_371D71B0297579488AB0416E14123D93LLV8EndpointV"
+              }
+            ],
+            "key.typename" : "TwitterService.Constants.Type",
+            "key.typeusr" : "$s24Mobile_Take_Home_Project14TwitterServiceC9Constants33_371D71B0297579488AB0416E14123D93LLVmD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC9Constants33_371D71B0297579488AB0416E14123D93LLV"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 13,
+            "key.name" : "MARK: Methods",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 847
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func getUserProfile(username: <Type usr=\"s:SS\">String<\/Type>, completion: @escaping <Type usr=\"s:24Mobile_Take_Home_Project24TwitterProfileCompletiona\">TwitterProfileCompletion<\/Type>)<\/Declaration>",
+            "key.bodylength" : 769,
+            "key.bodyoffset" : 957,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>getUserProfile<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>username<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:SS\">String<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>completion<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@escaping<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <ref.typealias usr=\"s:24Mobile_Take_Home_Project24TwitterProfileCompletiona\">TwitterProfileCompletion<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 857,
+            "key.name" : "getUserProfile(username:completion:)",
+            "key.namelength" : 80,
+            "key.nameoffset" : 875,
+            "key.offset" : 870,
+            "key.parsed_declaration" : "func getUserProfile(username: String, completion: @escaping TwitterProfileCompletion)",
+            "key.parsed_scope.end" : 54,
+            "key.parsed_scope.start" : 32,
+            "key.substructure" : [
+              {
+                "key.annotated_decl" : "<Declaration>var urlComponents: <Type usr=\"s:10Foundation13URLComponentsV\">URLComponents<\/Type>?<\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+                "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>urlComponents<\/decl.name>: <decl.var.type><ref.struct usr=\"s:10Foundation13URLComponentsV\">URLComponents<\/ref.struct>?<\/decl.var.type><\/decl.var.local>",
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 72,
+                "key.name" : "urlComponents",
+                "key.namelength" : 13,
+                "key.nameoffset" : 970,
+                "key.offset" : 966,
+                "key.parsed_declaration" : "var urlComponents = URLComponents(string: Constants.Endpoint.getProfile)",
+                "key.parsed_scope.end" : 33,
+                "key.parsed_scope.start" : 33,
+                "key.typename" : "URLComponents?",
+                "key.typeusr" : "$s10Foundation13URLComponentsVSgD",
+                "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC14getUserProfile8username10completionySS_ySb_AA0eI0VSgtctF13urlComponentsL_10Foundation13URLComponentsVSgvp"
+              },
+              {
+                "key.annotated_decl" : "<Declaration>let request: <Type usr=\"s:10Foundation10URLRequestV\">URLRequest<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+                "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>request<\/decl.name>: <decl.var.type><ref.struct usr=\"s:10Foundation10URLRequestV\">URLRequest<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 44,
+                "key.name" : "request",
+                "key.namelength" : 7,
+                "key.nameoffset" : 1237,
+                "key.offset" : 1233,
+                "key.parsed_declaration" : "let request = getTwitterAPIRequest(url: url)",
+                "key.parsed_scope.end" : 40,
+                "key.parsed_scope.start" : 40,
+                "key.typename" : "URLRequest",
+                "key.typeusr" : "$s10Foundation10URLRequestVD",
+                "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC14getUserProfile8username10completionySS_ySb_AA0eI0VSgtctF7requestL_10Foundation10URLRequestVvp"
+              }
+            ],
+            "key.typename" : "(TwitterService) -> (String, @escaping (Bool, TwitterProfile?) -> ()) -> ()",
+            "key.typeusr" : "$s8username10completionySS_ySb_24Mobile_Take_Home_Project14TwitterProfileVSgtctcD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC14getUserProfile8username10completionySS_ySb_AA0eI0VSgtctF"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 21,
+            "key.name" : "MARK: Private methods",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 1740
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private func getTwitterAPIRequest(url: <Type usr=\"s:10Foundation3URLV\">URL<\/Type>) -&gt; <Type usr=\"s:10Foundation10URLRequestV\">URLRequest<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 1771
+              }
+            ],
+            "key.bodylength" : 189,
+            "key.bodyoffset" : 1830,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>getTwitterAPIRequest<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>url<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation3URLV\">URL<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>) -&gt; <decl.function.returntype><ref.struct usr=\"s:10Foundation10URLRequestV\">URLRequest<\/ref.struct><\/decl.function.returntype><\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 241,
+            "key.name" : "getTwitterAPIRequest(url:)",
+            "key.namelength" : 30,
+            "key.nameoffset" : 1784,
+            "key.offset" : 1779,
+            "key.parsed_declaration" : "private func getTwitterAPIRequest(url: URL) -> URLRequest",
+            "key.parsed_scope.end" : 63,
+            "key.parsed_scope.start" : 58,
+            "key.substructure" : [
+              {
+                "key.annotated_decl" : "<Declaration>var urlRequest: <Type usr=\"s:10Foundation10URLRequestV\">URLRequest<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+                "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>urlRequest<\/decl.name>: <decl.var.type><ref.struct usr=\"s:10Foundation10URLRequestV\">URLRequest<\/ref.struct><\/decl.var.type><\/decl.var.local>",
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 37,
+                "key.name" : "urlRequest",
+                "key.namelength" : 10,
+                "key.nameoffset" : 1843,
+                "key.offset" : 1839,
+                "key.parsed_declaration" : "var urlRequest = URLRequest(url: url)",
+                "key.parsed_scope.end" : 59,
+                "key.parsed_scope.start" : 59,
+                "key.typename" : "URLRequest",
+                "key.typeusr" : "$s10Foundation10URLRequestVD",
+                "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC03getE10APIRequest33_371D71B0297579488AB0416E14123D93LL3url10Foundation10URLRequestVAG3URLV_tF0N7RequestL_AIvp"
+              }
+            ],
+            "key.typename" : "(TwitterService) -> (URL) -> URLRequest",
+            "key.typeusr" : "$s3url10Foundation10URLRequestVAB3URLV_tcD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC03getE10APIRequest33_371D71B0297579488AB0416E14123D93LL3url10Foundation10URLRequestVAG3URLV_tF"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private let config: <Type usr=\"c:objc(cs)NSURLSessionConfiguration\">URLSessionConfiguration<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 2040
+              }
+            ],
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>config<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSURLSessionConfiguration\">URLSessionConfiguration<\/ref.class><\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 44,
+            "key.name" : "config",
+            "key.namelength" : 6,
+            "key.nameoffset" : 2052,
+            "key.offset" : 2048,
+            "key.parsed_declaration" : "private let config = URLSessionConfiguration.default",
+            "key.parsed_scope.end" : 67,
+            "key.parsed_scope.start" : 67,
+            "key.typename" : "URLSessionConfiguration",
+            "key.typeusr" : "$sSo25NSURLSessionConfigurationCD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC6config33_371D71B0297579488AB0416E14123D93LLSo25NSURLSessionConfigurationCvp"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private var session: <Type usr=\"c:objc(cs)NSURLSession\">URLSession<\/Type>!<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 2097
+              }
+            ],
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>session<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSURLSession\">URLSession<\/ref.class>!<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 24,
+            "key.name" : "session",
+            "key.namelength" : 7,
+            "key.nameoffset" : 2109,
+            "key.offset" : 2105,
+            "key.parsed_declaration" : "private var session: URLSession!",
+            "key.parsed_scope.end" : 68,
+            "key.parsed_scope.start" : 68,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+            "key.typename" : "URLSession?",
+            "key.typeusr" : "$sSo12NSURLSessionCSgD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC7session33_371D71B0297579488AB0416E14123D93LLSo12NSURLSessionCSgvp"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 15,
+            "key.name" : "MARK: Lifecycle",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 2142
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>override init()<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override",
+                "key.length" : 8,
+                "key.offset" : 2167
+              }
+            ],
+            "key.bodylength" : 122,
+            "key.bodyoffset" : 2184,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+            "key.fully_annotated_decl" : "<decl.function.constructor><syntaxtype.keyword>override<\/syntaxtype.keyword> <syntaxtype.keyword>init<\/syntaxtype.keyword>()<\/decl.function.constructor>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 131,
+            "key.name" : "init()",
+            "key.namelength" : 6,
+            "key.nameoffset" : 2176,
+            "key.offset" : 2176,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(cs)NSObject(im)init"
+              }
+            ],
+            "key.parsed_declaration" : "override init()",
+            "key.parsed_scope.end" : 76,
+            "key.parsed_scope.start" : 72,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(TwitterService.Type) -> () -> TwitterService",
+            "key.typeusr" : "$s24Mobile_Take_Home_Project14TwitterServiceCycD",
+            "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)TwitterService(im)init"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 13,
+            "key.name" : "MARK: Methods",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 2320
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func makeRequest(URLRequest: <Type usr=\"s:10Foundation10URLRequestV\">URLRequest<\/Type>, completion: @escaping <Type usr=\"s:24Mobile_Take_Home_Project11JSONClosurea\">JSONClosure<\/Type>)<\/Declaration>",
+            "key.bodylength" : 748,
+            "key.bodyoffset" : 2420,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>makeRequest<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>URLRequest<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:10Foundation10URLRequestV\">URLRequest<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>completion<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@escaping<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <ref.typealias usr=\"s:24Mobile_Take_Home_Project11JSONClosurea\">JSONClosure<\/ref.typealias><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 826,
+            "key.name" : "makeRequest(URLRequest:completion:)",
+            "key.namelength" : 70,
+            "key.nameoffset" : 2348,
+            "key.offset" : 2343,
+            "key.parsed_declaration" : "func makeRequest(URLRequest: URLRequest, completion: @escaping JSONClosure)",
+            "key.parsed_scope.end" : 104,
+            "key.parsed_scope.start" : 80,
+            "key.substructure" : [
+              {
+                "key.annotated_decl" : "<Declaration>let task: <Type usr=\"c:objc(cs)NSURLSessionDataTask\">URLSessionDataTask<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/Model\/Services\/TwitterService.swift",
+                "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>task<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)NSURLSessionDataTask\">URLSessionDataTask<\/ref.class><\/decl.var.type><\/decl.var.local>",
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 703,
+                "key.name" : "task",
+                "key.namelength" : 4,
+                "key.nameoffset" : 2433,
+                "key.offset" : 2429,
+                "key.parsed_declaration" : "let task = session.dataTask(with: URLRequest) { (data, urlResponse, error) in\n    guard error == nil, let data = data else {\n        return\n    }\n    \n    do {\n        if let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String: Any] {\n            DispatchQueue.main.async {\n                \/\/ Success\n                completion(true, json)\n            }\n            return\n        }\n        \n    } catch _ {}\n    \n    DispatchQueue.main.async {\n        \/\/ failure\n        completion(false, nil)\n    }\n}",
+                "key.parsed_scope.end" : 81,
+                "key.parsed_scope.start" : 81,
+                "key.typename" : "URLSessionDataTask",
+                "key.typeusr" : "$sSo20NSURLSessionDataTaskCD",
+                "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC11makeRequest10URLRequest10completiony10FoundationAEV_ySb_SDySSypGSgtctF4taskL_So20NSURLSessionDataTaskCvp"
+              }
+            ],
+            "key.typename" : "(TwitterService) -> (URLRequest, @escaping (Bool, [String : Any]?) -> ()) -> ()",
+            "key.typeusr" : "$s10URLRequest10completiony10FoundationAAV_ySb_SDySSypGSgtctcD",
+            "key.usr" : "s:24Mobile_Take_Home_Project14TwitterServiceC11makeRequest10URLRequest10completiony10FoundationAEV_ySb_SDySSypGSgtctF"
+          }
+        ],
+        "key.typename" : "TwitterService.Type",
+        "key.typeusr" : "$s24Mobile_Take_Home_Project14TwitterServiceCmD",
+        "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)TwitterService"
+      }
+    ]
+  }
+}, {
+  "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/SceneDelegate.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 703,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>class SceneDelegate : <Type usr=\"c:objc(cs)UIResponder\">UIResponder<\/Type>, <Type usr=\"c:objc(pl)UIWindowSceneDelegate\">UIWindowSceneDelegate<\/Type><\/Declaration>",
+        "key.bodylength" : 521,
+        "key.bodyoffset" : 179,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 11,
+            "key.offset" : 143
+          },
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 21,
+            "key.offset" : 156
+          }
+        ],
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/SceneDelegate.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>SceneDelegate<\/decl.name> : <ref.class usr=\"c:objc(cs)UIResponder\">UIResponder<\/ref.class>, <ref.protocol usr=\"c:objc(pl)UIWindowSceneDelegate\">UIWindowSceneDelegate<\/ref.protocol><\/decl.class>",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UIResponder"
+          },
+          {
+            "key.name" : "UIWindowSceneDelegate"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 579,
+        "key.name" : "SceneDelegate",
+        "key.namelength" : 13,
+        "key.nameoffset" : 128,
+        "key.offset" : 122,
+        "key.parsed_declaration" : "class SceneDelegate: UIResponder, UIWindowSceneDelegate",
+        "key.parsed_scope.end" : 28,
+        "key.parsed_scope.start" : 10,
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>var window: <Type usr=\"c:objc(cs)UIWindow\">UIWindow<\/Type>?<\/Declaration>",
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/SceneDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>window<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UIWindow\">UIWindow<\/ref.class>?<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 21,
+            "key.name" : "window",
+            "key.namelength" : 6,
+            "key.nameoffset" : 189,
+            "key.offset" : 185,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UIWindowSceneDelegate(py)window"
+              }
+            ],
+            "key.parsed_declaration" : "var window: UIWindow?",
+            "key.parsed_scope.end" : 12,
+            "key.parsed_scope.start" : 12,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UIWindow?",
+            "key.typeusr" : "$sSo8UIWindowCSgD",
+            "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)SceneDelegate(py)window"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.annotated_decl" : "<Declaration>private var appCoordinator: <Type usr=\"s:24Mobile_Take_Home_Project14AppCoordinatorC\">AppCoordinator<\/Type><\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 211
+              }
+            ],
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/SceneDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.keyword>private<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>appCoordinator<\/decl.name>: <decl.var.type><ref.class usr=\"s:24Mobile_Take_Home_Project14AppCoordinatorC\">AppCoordinator<\/ref.class><\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 37,
+            "key.name" : "appCoordinator",
+            "key.namelength" : 14,
+            "key.nameoffset" : 223,
+            "key.offset" : 219,
+            "key.parsed_declaration" : "private var appCoordinator = AppCoordinator()",
+            "key.parsed_scope.end" : 13,
+            "key.parsed_scope.start" : 13,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+            "key.typename" : "AppCoordinator",
+            "key.typeusr" : "$s24Mobile_Take_Home_Project14AppCoordinatorCD",
+            "key.usr" : "s:24Mobile_Take_Home_Project13SceneDelegateC14appCoordinator33_5632509A9176447D9B21CE4DC97CE2BBLLAA03AppH0Cvp"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 14,
+            "key.name" : "MARK: Delegate",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 269
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func scene(_ scene: <Type usr=\"c:objc(cs)UIScene\">UIScene<\/Type>, willConnectTo session: <Type usr=\"c:objc(cs)UISceneSession\">UISceneSession<\/Type>, options connectionOptions: <Type usr=\"c:objc(cs)UIScene\">UIScene<\/Type>.<Type usr=\"c:objc(cs)UISceneConnectionOptions\">ConnectionOptions<\/Type>)<\/Declaration>",
+            "key.bodylength" : 282,
+            "key.bodyoffset" : 416,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/SceneDelegate.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>scene<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>_<\/decl.var.parameter.argument_label> <decl.var.parameter.name>scene<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIScene\">UIScene<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>willConnectTo<\/decl.var.parameter.argument_label> <decl.var.parameter.name>session<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UISceneSession\">UISceneSession<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>, <decl.var.parameter><decl.var.parameter.argument_label>options<\/decl.var.parameter.argument_label> <decl.var.parameter.name>connectionOptions<\/decl.var.parameter.name>: <decl.var.parameter.type><ref.class usr=\"c:objc(cs)UIScene\">UIScene<\/ref.class>.<ref.class usr=\"c:objc(cs)UISceneConnectionOptions\">ConnectionOptions<\/ref.class><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 406,
+            "key.name" : "scene(_:willConnectTo:options:)",
+            "key.namelength" : 116,
+            "key.nameoffset" : 298,
+            "key.offset" : 293,
+            "key.overrides" : [
+              {
+                "key.usr" : "c:objc(pl)UISceneDelegate(im)scene:willConnectToSession:options:"
+              }
+            ],
+            "key.parsed_declaration" : "func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions)",
+            "key.parsed_scope.end" : 27,
+            "key.parsed_scope.start" : 17,
+            "key.substructure" : [
+              {
+                "key.annotated_decl" : "<Declaration>let rootVC: <Type usr=\"c:objc(cs)UIViewController\">UIViewController<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/SceneDelegate.swift",
+                "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>rootVC<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UIViewController\">UIViewController<\/ref.class><\/decl.var.type><\/decl.var.local>",
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 38,
+                "key.name" : "rootVC",
+                "key.namelength" : 6,
+                "key.nameoffset" : 570,
+                "key.offset" : 566,
+                "key.parsed_declaration" : "let rootVC = appCoordinator.startApp()",
+                "key.parsed_scope.end" : 23,
+                "key.parsed_scope.start" : 23,
+                "key.typename" : "UIViewController",
+                "key.typeusr" : "$sSo16UIViewControllerCD",
+                "key.usr" : "s:24Mobile_Take_Home_Project13SceneDelegateC5scene_13willConnectTo7optionsySo7UISceneC_So0L7SessionCSo0L17ConnectionOptionsCtF6rootVCL_So16UIViewControllerCvp"
+              }
+            ],
+            "key.typename" : "(SceneDelegate) -> (UIScene, UISceneSession, UIScene.ConnectionOptions) -> ()",
+            "key.typeusr" : "$s_13willConnectTo7optionsySo7UISceneC_So0E7SessionCSo0E17ConnectionOptionsCtcD",
+            "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)SceneDelegate(im)scene:willConnectToSession:options:"
+          }
+        ],
+        "key.typename" : "SceneDelegate.Type",
+        "key.typeusr" : "$s24Mobile_Take_Home_Project13SceneDelegateCmD",
+        "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)SceneDelegate"
+      }
+    ]
+  }
+}, {
+  "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/View\/ProfileDetailsView.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 645,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>class ProfileDetailsView : <Type usr=\"c:objc(cs)UIView\">UIView<\/Type><\/Declaration>",
+        "key.bodylength" : 482,
+        "key.bodyoffset" : 161,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 6,
+            "key.offset" : 153
+          }
+        ],
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/View\/ProfileDetailsView.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>ProfileDetailsView<\/decl.name> : <ref.class usr=\"c:objc(cs)UIView\">UIView<\/ref.class><\/decl.class>",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UIView"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 517,
+        "key.name" : "ProfileDetailsView",
+        "key.namelength" : 18,
+        "key.nameoffset" : 133,
+        "key.offset" : 127,
+        "key.parsed_declaration" : "class ProfileDetailsView: UIView",
+        "key.parsed_scope.end" : 27,
+        "key.parsed_scope.start" : 10,
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>@IBOutlet weak var usernameLabel: <Type usr=\"c:objc(cs)UILabel\">UILabel<\/Type>!<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.weak",
+                "key.length" : 4,
+                "key.offset" : 176
+              },
+              {
+                "key.attribute" : "source.decl.attribute.iboutlet",
+                "key.length" : 9,
+                "key.offset" : 166
+              }
+            ],
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/View\/ProfileDetailsView.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@IBOutlet<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>weak<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>usernameLabel<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UILabel\">UILabel<\/ref.class>!<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 27,
+            "key.name" : "usernameLabel",
+            "key.namelength" : 13,
+            "key.nameoffset" : 185,
+            "key.offset" : 181,
+            "key.parsed_declaration" : "@IBOutlet weak var usernameLabel: UILabel!",
+            "key.parsed_scope.end" : 11,
+            "key.parsed_scope.start" : 11,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UILabel?",
+            "key.typeusr" : "$sSo7UILabelCSgD",
+            "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)ProfileDetailsView(py)usernameLabel"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>@IBOutlet weak var tweetTextLabel: <Type usr=\"c:objc(cs)UILabel\">UILabel<\/Type>!<\/Declaration>",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.weak",
+                "key.length" : 4,
+                "key.offset" : 223
+              },
+              {
+                "key.attribute" : "source.decl.attribute.iboutlet",
+                "key.length" : 9,
+                "key.offset" : 213
+              }
+            ],
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/View\/ProfileDetailsView.swift",
+            "key.fully_annotated_decl" : "<decl.var.instance><syntaxtype.attribute.builtin><syntaxtype.attribute.name>@IBOutlet<\/syntaxtype.attribute.name><\/syntaxtype.attribute.builtin> <syntaxtype.keyword>weak<\/syntaxtype.keyword> <syntaxtype.keyword>var<\/syntaxtype.keyword> <decl.name>tweetTextLabel<\/decl.name>: <decl.var.type><ref.class usr=\"c:objc(cs)UILabel\">UILabel<\/ref.class>!<\/decl.var.type><\/decl.var.instance>",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 28,
+            "key.name" : "tweetTextLabel",
+            "key.namelength" : 14,
+            "key.nameoffset" : 232,
+            "key.offset" : 228,
+            "key.parsed_declaration" : "@IBOutlet weak var tweetTextLabel: UILabel!",
+            "key.parsed_scope.end" : 12,
+            "key.parsed_scope.start" : 12,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UILabel?",
+            "key.typeusr" : "$sSo7UILabelCSgD",
+            "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)ProfileDetailsView(py)tweetTextLabel"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>static func loadView() -&gt; <Type usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)ProfileDetailsView\">ProfileDetailsView<\/Type><\/Declaration>",
+            "key.bodylength" : 163,
+            "key.bodyoffset" : 313,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/View\/ProfileDetailsView.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.static><syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>loadView<\/decl.name>() -&gt; <decl.function.returntype><ref.class usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)ProfileDetailsView\">ProfileDetailsView<\/ref.class><\/decl.function.returntype><\/decl.function.method.static>",
+            "key.kind" : "source.lang.swift.decl.function.method.static",
+            "key.length" : 210,
+            "key.name" : "loadView()",
+            "key.namelength" : 10,
+            "key.nameoffset" : 279,
+            "key.offset" : 267,
+            "key.parsed_declaration" : "static func loadView() -> ProfileDetailsView",
+            "key.parsed_scope.end" : 20,
+            "key.parsed_scope.start" : 15,
+            "key.substructure" : [
+              {
+                "key.annotated_decl" : "<Declaration>let view: <Type usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)ProfileDetailsView\">ProfileDetailsView<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/View\/ProfileDetailsView.swift",
+                "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>view<\/decl.name>: <decl.var.type><ref.class usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)ProfileDetailsView\">ProfileDetailsView<\/ref.class><\/decl.var.type><\/decl.var.local>",
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 111,
+                "key.name" : "view",
+                "key.namelength" : 4,
+                "key.nameoffset" : 326,
+                "key.offset" : 322,
+                "key.parsed_declaration" : "let view = Bundle.main.loadNibNamed(\"ProfileDetailsView\", owner: self, options: nil)![0] as! ProfileDetailsView",
+                "key.parsed_scope.end" : 16,
+                "key.parsed_scope.start" : 16,
+                "key.typename" : "ProfileDetailsView",
+                "key.typeusr" : "$s24Mobile_Take_Home_Project18ProfileDetailsViewCD",
+                "key.usr" : "s:24Mobile_Take_Home_Project18ProfileDetailsViewC04loadG0ACyFZ4viewL_ACvp"
+              }
+            ],
+            "key.typename" : "(ProfileDetailsView.Type) -> () -> ProfileDetailsView",
+            "key.typeusr" : "$s24Mobile_Take_Home_Project18ProfileDetailsViewCycD",
+            "key.usr" : "s:24Mobile_Take_Home_Project18ProfileDetailsViewC04loadG0ACyFZ"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>func set(profile: <Type usr=\"s:24Mobile_Take_Home_Project14TwitterProfileV\">TwitterProfile<\/Type>)<\/Declaration>",
+            "key.bodylength" : 114,
+            "key.bodyoffset" : 527,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/View\/ProfileDetailsView.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.instance><syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>set<\/decl.name>(<decl.var.parameter><decl.var.parameter.argument_label>profile<\/decl.var.parameter.argument_label>: <decl.var.parameter.type><ref.struct usr=\"s:24Mobile_Take_Home_Project14TwitterProfileV\">TwitterProfile<\/ref.struct><\/decl.var.parameter.type><\/decl.var.parameter>)<\/decl.function.method.instance>",
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 150,
+            "key.name" : "set(profile:)",
+            "key.namelength" : 28,
+            "key.nameoffset" : 497,
+            "key.offset" : 492,
+            "key.parsed_declaration" : "func set(profile: TwitterProfile)",
+            "key.parsed_scope.end" : 26,
+            "key.parsed_scope.start" : 23,
+            "key.substructure" : [
+
+            ],
+            "key.typename" : "(ProfileDetailsView) -> (TwitterProfile) -> ()",
+            "key.typeusr" : "$s7profiley24Mobile_Take_Home_Project14TwitterProfileV_tcD",
+            "key.usr" : "s:24Mobile_Take_Home_Project18ProfileDetailsViewC3set7profileyAA07TwitterE0V_tF"
+          }
+        ],
+        "key.typename" : "ProfileDetailsView.Type",
+        "key.typeusr" : "$s24Mobile_Take_Home_Project18ProfileDetailsViewCmD",
+        "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)ProfileDetailsView"
+      }
+    ]
+  }
+}, {
+  "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/View\/ProfileErrorView.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 368,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.annotated_decl" : "<Declaration>class ProfileErrorView : <Type usr=\"c:objc(cs)UIView\">UIView<\/Type><\/Declaration>",
+        "key.bodylength" : 209,
+        "key.bodyoffset" : 157,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 6,
+            "key.offset" : 149
+          }
+        ],
+        "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/View\/ProfileErrorView.swift",
+        "key.fully_annotated_decl" : "<decl.class><syntaxtype.keyword>class<\/syntaxtype.keyword> <decl.name>ProfileErrorView<\/decl.name> : <ref.class usr=\"c:objc(cs)UIView\">UIView<\/ref.class><\/decl.class>",
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UIView"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 242,
+        "key.name" : "ProfileErrorView",
+        "key.namelength" : 16,
+        "key.nameoffset" : 131,
+        "key.offset" : 125,
+        "key.parsed_declaration" : "class ProfileErrorView: UIView",
+        "key.parsed_scope.end" : 20,
+        "key.parsed_scope.start" : 10,
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.annotated_decl" : "<Declaration>static func loadView() -&gt; <Type usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)ProfileErrorView\">ProfileErrorView<\/Type><\/Declaration>",
+            "key.bodylength" : 150,
+            "key.bodyoffset" : 212,
+            "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/View\/ProfileErrorView.swift",
+            "key.fully_annotated_decl" : "<decl.function.method.static><syntaxtype.keyword>static<\/syntaxtype.keyword> <syntaxtype.keyword>func<\/syntaxtype.keyword> <decl.name>loadView<\/decl.name>() -&gt; <decl.function.returntype><ref.class usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)ProfileErrorView\">ProfileErrorView<\/ref.class><\/decl.function.returntype><\/decl.function.method.static>",
+            "key.kind" : "source.lang.swift.decl.function.method.static",
+            "key.length" : 195,
+            "key.name" : "loadView()",
+            "key.namelength" : 10,
+            "key.nameoffset" : 180,
+            "key.offset" : 168,
+            "key.parsed_declaration" : "static func loadView() -> ProfileErrorView",
+            "key.parsed_scope.end" : 17,
+            "key.parsed_scope.start" : 13,
+            "key.substructure" : [
+              {
+                "key.annotated_decl" : "<Declaration>let view: <Type usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)ProfileErrorView\">ProfileErrorView<\/Type><\/Declaration>",
+                "key.filepath" : "\/Users\/dragos\/Documents\/Code\/appssemble\/iOS-demo\/Mobile Take Home Project\/View\/ProfileErrorView.swift",
+                "key.fully_annotated_decl" : "<decl.var.local><syntaxtype.keyword>let<\/syntaxtype.keyword> <decl.name>view<\/decl.name>: <decl.var.type><ref.class usr=\"c:@M@Mobile_Take_Home_Project@objc(cs)ProfileErrorView\">ProfileErrorView<\/ref.class><\/decl.var.type><\/decl.var.local>",
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 107,
+                "key.name" : "view",
+                "key.namelength" : 4,
+                "key.nameoffset" : 225,
+                "key.offset" : 221,
+                "key.parsed_declaration" : "let view = Bundle.main.loadNibNamed(\"ProfileErrorView\", owner: self, options: nil)![0] as! ProfileErrorView",
+                "key.parsed_scope.end" : 14,
+                "key.parsed_scope.start" : 14,
+                "key.typename" : "ProfileErrorView",
+                "key.typeusr" : "$s24Mobile_Take_Home_Project16ProfileErrorViewCD",
+                "key.usr" : "s:24Mobile_Take_Home_Project16ProfileErrorViewC04loadG0ACyFZ4viewL_ACvp"
+              }
+            ],
+            "key.typename" : "(ProfileErrorView.Type) -> () -> ProfileErrorView",
+            "key.typeusr" : "$s24Mobile_Take_Home_Project16ProfileErrorViewCycD",
+            "key.usr" : "s:24Mobile_Take_Home_Project16ProfileErrorViewC04loadG0ACyFZ"
+          }
+        ],
+        "key.typename" : "ProfileErrorView.Type",
+        "key.typeusr" : "$s24Mobile_Take_Home_Project16ProfileErrorViewCmD",
+        "key.usr" : "c:@M@Mobile_Take_Home_Project@objc(cs)ProfileErrorView"
+      }
+    ]
+  }
+}]

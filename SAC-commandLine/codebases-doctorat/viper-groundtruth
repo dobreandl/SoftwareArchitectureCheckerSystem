@@ -1,0 +1,214 @@
+VIEW
+PostDetailView
+PostListView
+PostTableViewCell
+
+
+
+INTERACTOR
+PostListInteractor
+
+
+
+PRESENTER
+PostDetailPresenter
+PostListPresenter
+
+
+
+ENTITY
+Post
+PostModel
+
+
+
+ROUTER
+PostDetailWireFrame
+PostListWireFrame
+
+
+
+MODEL
+
+AppDelegate
+API
+CoreDataStore
+PostListLocalDataManager
+PostListRemoteDataManager
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*****Model******
+AppDelegate
+API
+CoreDataStore
+Post
+PostModel
+PostListLocalDataManager
+PostListRemoteDataManager
+PostListInteractor
+
+
+*****View******
+PostTableViewCell
+
+
+*****Controller******
+PostDetailPresenter
+PostDetailView
+PostListPresenter
+PostListWireFrame
+PostListView
+PostDetailWireFrame
+
+
+
+
+Aglomerative clustering
+
+
+1 _________
+
+
+PostListInteractor,PostDetailWireFrame,
+5 _________
+
+
+PostListLocalDataManager,PostListRemoteDataManager,
+0 _________
+
+
+API,CoreDataStore,Post,PostModel,
+2 _________
+
+
+PostDetailPresenter,PostListWireFrame,
+4 _________
+
+
+PostTableViewCell,PostDetailView,PostListPresenter,PostListView,
+3 _________
+
+
+AppDelegate,
+
+
+
+
+Normal clustering
+
+
+5 _________
+
+
+AppDelegate,
+2 _________
+
+
+PostListInteractor,
+3 _________
+
+
+PostListLocalDataManager,PostListRemoteDataManager,
+0 _________
+
+
+CoreDataStore,PostDetailWireFrame,
+4 _________
+
+
+API,Post,PostModel,
+1 _________
+
+
+PostTableViewCell,PostDetailPresenter,PostDetailView,PostListPresenter,PostListWireFrame,PostListView,
+6 _________
+
+
+
+
+
+
+
+NAMES ONLY K MEANS
+
+
+4 _________
+
+
+PostTableViewCell,PostListPresenter,PostListView,
+1 _________
+
+
+PostListLocalDataManager,PostListRemoteDataManager,
+6 _________
+
+
+
+5 _________
+
+
+AppDelegate,
+2 _________
+
+
+API,Post,
+3 _________
+
+
+PostListInteractor,PostDetailView,
+0 _________
+
+
+CoreDataStore,PostModel,PostDetailPresenter,PostListWireFrame,PostDetailWireFrame,
+
+
+
+
+
+
+
+CEL MAI BUN CU CE AM ACUMA
+
+0 _________
+
+
+API,CoreDataStore,Post,PostModel,
+2 _________
+
+
+PostTableViewCell,PostDetailView,PostListPresenter,PostListView,
+5 _________
+
+
+PostDetailPresenter,PostListWireFrame,PostDetailWireFrame,
+1 _________
+
+
+PostListLocalDataManager,PostListRemoteDataManager,
+4 _________
+
+
+PostListInteractor,
+3 _________
+
+
+AppDelegate,
+6 _________
+
+
+
+
+
+

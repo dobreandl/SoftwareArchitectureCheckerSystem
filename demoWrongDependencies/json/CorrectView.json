@@ -1,0 +1,125 @@
+{
+  "\/Users\/dragos\/Documents\/Doctorat\/Doctorat-GIT\/Code\/demoWrongDependencies\/demoWrongDependencies\/View\/CorrectView.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 782,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.bodylength" : 577,
+        "key.bodyoffset" : 203,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 6,
+            "key.offset" : 195
+          }
+        ],
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UIView"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 605,
+        "key.name" : "CorrectView",
+        "key.namelength" : 11,
+        "key.nameoffset" : 182,
+        "key.offset" : 176,
+        "key.runtime_name" : "_TtC4main11CorrectView",
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.private",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.private",
+                "key.length" : 7,
+                "key.offset" : 213
+              }
+            ],
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 24,
+            "key.name" : "priceLabel",
+            "key.namelength" : 10,
+            "key.nameoffset" : 225,
+            "key.offset" : 221,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.private",
+            "key.typename" : "UILabel!"
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 17,
+            "key.name" : "MARK: Overwritten",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 258
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.override",
+                "key.length" : 8,
+                "key.offset" : 285
+              }
+            ],
+            "key.bodylength" : 250,
+            "key.bodyoffset" : 315,
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 272,
+            "key.name" : "init(frame:)",
+            "key.namelength" : 19,
+            "key.nameoffset" : 294,
+            "key.offset" : 294,
+            "key.substructure" : [
+
+            ]
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.attributes" : [
+              {
+                "key.attribute" : "source.decl.attribute.required",
+                "key.length" : 8,
+                "key.offset" : 576
+              }
+            ],
+            "key.bodylength" : 65,
+            "key.bodyoffset" : 608,
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 89,
+            "key.name" : "init(coder:)",
+            "key.namelength" : 21,
+            "key.nameoffset" : 585,
+            "key.offset" : 585,
+            "key.substructure" : [
+
+            ]
+          },
+          {
+            "key.kind" : "source.lang.swift.syntaxtype.comment.mark",
+            "key.length" : 20,
+            "key.name" : "MARK: Public methods",
+            "key.namelength" : 0,
+            "key.nameoffset" : 0,
+            "key.offset" : 687
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.bodylength" : 37,
+            "key.bodyoffset" : 741,
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 66,
+            "key.name" : "update(price:)",
+            "key.namelength" : 21,
+            "key.nameoffset" : 718,
+            "key.offset" : 713,
+            "key.substructure" : [
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

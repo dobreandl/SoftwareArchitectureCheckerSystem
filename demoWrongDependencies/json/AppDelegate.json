@@ -1,0 +1,93 @@
+{
+  "\/Users\/dragos\/Documents\/Doctorat\/Doctorat-GIT\/Code\/demoWrongDependencies\/demoWrongDependencies\/AppDelegate.swift" : {
+    "key.diagnostic_stage" : "source.diagnostic.stage.swift.parse",
+    "key.length" : 764,
+    "key.offset" : 0,
+    "key.substructure" : [
+      {
+        "key.accessibility" : "source.lang.swift.accessibility.internal",
+        "key.attributes" : [
+          {
+            "key.attribute" : "source.decl.attribute.UIApplicationMain",
+            "key.length" : 18,
+            "key.offset" : 176
+          }
+        ],
+        "key.bodylength" : 509,
+        "key.bodyoffset" : 250,
+        "key.elements" : [
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 11,
+            "key.offset" : 214
+          },
+          {
+            "key.kind" : "source.lang.swift.structure.elem.typeref",
+            "key.length" : 21,
+            "key.offset" : 227
+          }
+        ],
+        "key.inheritedtypes" : [
+          {
+            "key.name" : "UIResponder"
+          },
+          {
+            "key.name" : "UIApplicationDelegate"
+          }
+        ],
+        "key.kind" : "source.lang.swift.decl.class",
+        "key.length" : 565,
+        "key.name" : "AppDelegate",
+        "key.namelength" : 11,
+        "key.nameoffset" : 201,
+        "key.offset" : 195,
+        "key.runtime_name" : "_TtC4main11AppDelegate",
+        "key.substructure" : [
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 21,
+            "key.name" : "window",
+            "key.namelength" : 6,
+            "key.nameoffset" : 264,
+            "key.offset" : 260,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "UIWindow?"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.kind" : "source.lang.swift.decl.var.instance",
+            "key.length" : 27,
+            "key.name" : "rootVC",
+            "key.namelength" : 6,
+            "key.nameoffset" : 290,
+            "key.offset" : 286,
+            "key.setter_accessibility" : "source.lang.swift.accessibility.internal",
+            "key.typename" : "ViewController!"
+          },
+          {
+            "key.accessibility" : "source.lang.swift.accessibility.internal",
+            "key.bodylength" : 368,
+            "key.bodyoffset" : 389,
+            "key.kind" : "source.lang.swift.decl.function.method.instance",
+            "key.length" : 435,
+            "key.name" : "applicationDidFinishLaunching(_:)",
+            "key.namelength" : 59,
+            "key.nameoffset" : 328,
+            "key.offset" : 323,
+            "key.substructure" : [
+              {
+                "key.kind" : "source.lang.swift.decl.var.local",
+                "key.length" : 56,
+                "key.name" : "storyboard",
+                "key.namelength" : 10,
+                "key.nameoffset" : 402,
+                "key.offset" : 398
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

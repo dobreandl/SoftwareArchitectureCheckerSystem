@@ -1,0 +1,54 @@
+pp
+
+
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Swift                           81           1539            751           5502
+JSON                            47              0              0            980
+JavaScript                       3              0              0              5
+-------------------------------------------------------------------------------
+SUM:                           131           1539            751           6487
+-------------------------------------------------------------------------------
+
+
+wholechild
+
+
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Swift                           96           1868            922           4764
+JSON                            31              0              0            760
+Markdown                         1              6              0             23
+XML                              1             13              0             12
+-------------------------------------------------------------------------------
+SUM:                           129           1887            922           5559
+-------------------------------------------------------------------------------
+
+
+apple
+
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Swift                           30            785            424           3364
+JSON                            16              0              0            391
+C/C++ Header                     1             75              4            375
+Markdown                         1             47              0            128
+D                                1              0              0             33
+YAML                             1              0              0              1
+-------------------------------------------------------------------------------
+SUM:                            50            907            428           4292
+-------------------------------------------------------------------------------
+
+
+
+precision for layer X = nr de elemente prezise de tool a fi de tipul X si care sunt de tipul X in ground truth / nr de elemente prezise de tool a fi de tipul X
+
+recall for layer X = nr de elemente prezise de tool a fi de tipul X si care sunt de tipul X in ground truth / nr de elemente din ground truth de tipul X
+
+
+P = PREZISE DE TIPUL X SI MATCHED / CATE IS TOTAL tool
+R =  PREZISE DE TIPUL X SI MATCHED / CATE IS TOTAL
+Acuratete = detectate corect / cate is

@@ -1,0 +1,281 @@
+MODEL
+
+AppDelegate
+ARCamera.TrackingState
+ARReferenceObject
+BoundingBox
+BoundingBoxSide
+CGPoint
+DetectedBoundingBox
+DetectedObject
+DetectedPointCloud
+Message
+ObjectOrigin
+ObjectOriginAxis
+PlaneDrag
+PointCloud
+Ray
+Scan
+ScannedObject
+ScannedPointCloud
+SCNMaterial
+SCNNode
+TestRun
+ThresholdPanGestureRecognizer
+ThresholdPinchGestureRecognizer
+ThresholdRotationGestureRecognizer
+Tile
+UIColor
+Wireframe
+
+
+VIEW
+
+ARSCNView
+FlashlightButton
+MessageLabel
+RoundedButton
+
+
+CONTROLLER
+
+ShareScanViewController
+ViewController
+
+
+
+
+MODEL
+
+AppDelegate,ARCamera.TrackingState,ARReferenceObject,BoundingBox,BoundingBoxSide,CGPoint,DetectedBoundingBox,DetectedObject,DetectedPointCloud,Message,ObjectOrigin,ObjectOriginAxis,PlaneDrag,PointCloud,Ray,Scan,ScannedObject,ScannedPointCloud,SCNMaterial,SCNNode,TestRun,ThresholdPanGestureRecognizer,ThresholdPinchGestureRecognizer,ThresholdRotationGestureRecognizer,Tile,UIColor,Wireframe
+
+VIEW
+
+ARSCNView,FlashlightButton,MessageLabel,RoundedButton
+
+CONTROLLER
+
+ShareScanViewController,ViewController
+
+
+************** WITH COORDINATORS
+
+
+
+MODEL
+
+AppDelegate
+ARCamera.TrackingState
+ARReferenceObject
+ARSCNView
+BoundingBox
+BoundingBoxSide
+CGPoint
+DetectedBoundingBox
+DetectedObject
+DetectedPointCloud
+float4
+float4x4
+Message
+ObjectOrigin
+ObjectOriginAxis
+PlaneDrag
+PointCloud
+Ray
+Scan
+ScannedObject
+ScannedPointCloud
+SCNMaterial
+SCNNode
+simd_quatf
+TestRun
+ThresholdPanGestureRecognizer
+ThresholdPinchGestureRecognizer
+ThresholdRotationGestureRecognizer
+Tile
+UIColor
+Wireframe
+
+
+
+VIEW
+
+FlashlightButton
+MessageLabel
+RoundedButton
+
+
+
+CONTROLLER
+
+ShareScanViewController
+ViewController
+
+
+
+STATS
+
+
+Module: Controller external dependencies 85 internal dependencies 3
+Module: View external dependencies 8 internal dependencies 1
+Module: Model external dependencies 257 internal dependencies 19
+Total components: 100
+Module Controller has: 23 components 23% of total.
+Module View has: 43 components 43% of total.
+Module Model has: 34 components 34% of total.
+
+   *View depends on Model -> Total: 1 Different items 1*  Total in first module - 8 percentage: 12  
+
+
+   *Controller depends on View -> Total: 13 Different items 8*  Total in first module - 85 percentage: 15  
+
+
+   *Model depends on View -> Total: 3 Different items 2*  Total in first module - 257 percentage: 1  
+
+
+   *Controller depends on Model -> Total: 6 Different items 6*  Total in first module - 85 percentage: 7  
+
+
+
+
+
+************** SIMPLE
+
+
+
+
+
+
+
+MODEL
+
+
+AppDelegate
+ARCamera.TrackingState
+ARReferenceObject
+ARSCNView
+BoundingBox
+BoundingBoxSide
+CGPoint
+DetectedBoundingBox
+DetectedObject
+DetectedPointCloud
+float4
+float4x4
+Message
+ObjectOrigin
+ObjectOriginAxis
+PlaneDrag
+PointCloud
+Ray
+Scan
+ScannedObject
+ScannedPointCloud
+SCNMaterial
+SCNNode
+simd_quatf
+TestRun
+ThresholdPanGestureRecognizer
+ThresholdPinchGestureRecognizer
+ThresholdRotationGestureRecognizer
+Tile
+UIColor
+Wireframe
+
+
+VIEW
+
+
+FlashlightButton
+MessageLabel
+RoundedButton
+
+
+CONTROLLER
+
+ShareScanViewController
+ViewController
+
+
+STATS
+
+Module: Controller external dependencies 85 internal dependencies 3
+Module: View external dependencies 8 internal dependencies 1
+Module: Model external dependencies 257 internal dependencies 19
+Total components: 100
+Module Controller has: 23 components 23% of total.
+Module View has: 43 components 43% of total.
+Module Model has: 34 components 34% of total.
+
+   *View depends on Model -> Total: 1 Different items 1*  Total in first module - 8 percentage: 12  
+
+
+   *Controller depends on View -> Total: 13 Different items 8*  Total in first module - 85 percentage: 15  
+
+
+   *Model depends on View -> Total: 3 Different items 2*  Total in first module - 257 percentage: 1  
+
+
+   *Controller depends on Model -> Total: 6 Different items 6*  Total in first module - 85 percentage: 7  
+
+
+VC-CC  0/0
+
+
+
+Clusters
+
+
+
+2 _________
+
+
+	    FlashlightButton
+	    MessageLabel
+	    RoundedButton
+
+
+0 _________
+
+
+      	BoundingBox
+		BoundingBoxSide
+		DetectedBoundingBox
+		DetectedObject
+		DetectedPointCloud
+		ObjectOrigin
+		ObjectOriginAxis
+		PointCloud
+		ScannedObject
+		ScannedPointCloud
+		Tile
+		Wireframe
+		AppDelegate
+		Scan
+		TestRun
+		ThresholdPanGestureRecognizer
+		ThresholdPinchGestureRecognizer
+		ThresholdRotationGestureRecognizer
+		ARCamera.TrackingState
+		UIColor
+		PlaneDrag
+		simd_quatf
+		float4x4
+		float4
+		SCNMaterial
+		Ray
+		ARSCNView
+		SCNNode
+		CGPoint
+		ARReferenceObject
+		Message
+
+
+1 _________
+
+
+      	ShareScanViewController
+      	ViewController
+
+
+

@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A0EE6C11-F8D1-4AA0-9939-C3C4BDAA4BF1"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAD15E22-A3EF-4FA2-AC7D-5BAC0F93DB64"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Parsers/RaportParser.swift"
+            timestampString = "608896784.927868"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
+            landmarkName = "parseMethodParameterTypes(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD42CF8B-ABE5-4158-9943-03062126B99A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Detectors/MVCAnalyser.swift"
+            timestampString = "595936646.765223"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "splitMVCClasses(components:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD42CF8B-ABE5-4158-9943-03062126B99A - 69a03d866fb9cdfc"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SAC_commandLine.MVCAnalyser.splitMVCClasses(components: Swift.Array&lt;SAC_commandLine.Component&gt;) -&gt; Swift.Array&lt;SAC_commandLine.Module&gt;"
+                  moduleName = "SAC-commandLine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dragos/Documents/Doctorat/Code/SAC-commandLine/SAC-commandLine/Detectors/MVCAnalyser.swift"
+                  timestampString = "558367784.13094"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "748">
+               </Location>
+               <Location
+                  uuid = "CD42CF8B-ABE5-4158-9943-03062126B99A - 47b75d20033ea6d0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SAC_commandLine.Component) -&gt; Swift.Bool in SAC_commandLine.MVCAnalyser.splitMVCClasses(components: Swift.Array&lt;SAC_commandLine.Component&gt;) -&gt; Swift.Array&lt;SAC_commandLine.Module&gt;"
+                  moduleName = "SAC-commandLine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dragos/Documents/Doctorat/Code/SAC-commandLine/SAC-commandLine/Detectors/MVCAnalyser.swift"
+                  timestampString = "558367784.1327029"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9DAB040-7159-4A8F-937E-12C982899238"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Display/Display.swift"
+            timestampString = "608898016.925233"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "displayModules(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0CEE3B5-70F5-46B6-A458-B5CD967F2CDE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Detectors/MVCAnalyser.swift"
+            timestampString = "595936646.7653199"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "splitMVCClasses(components:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45BA7493-2865-49CA-8660-B504DD4E82FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Component+Inherits.swift"
+            timestampString = "588335629.803772"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "inheritsFrom(types:otherComponents:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "45BA7493-2865-49CA-8660-B504DD4E82FB - e89bb1086057bed"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SAC_commandLine.Component.(inheritsFrom in _E54E93BA7F824DD8E160FA453C49996D)(types: Swift.Array&lt;Swift.String&gt;, otherComponents: Swift.Array&lt;SAC_commandLine.Component&gt;) -&gt; Swift.Bool"
+                  moduleName = "SAC-commandLine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dragos/Documents/Doctorat/Code/SAC-commandLine/SAC-commandLine/Extensions/Component+Inherits.swift"
+                  timestampString = "558105472.3446341"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "828">
+               </Location>
+               <Location
+                  uuid = "45BA7493-2865-49CA-8660-B504DD4E82FB - a93fd0c3dc63fc42"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SAC_commandLine.Component) -&gt; Swift.Bool in SAC_commandLine.Component.(inheritsFrom in _E54E93BA7F824DD8E160FA453C49996D)(types: Swift.Array&lt;Swift.String&gt;, otherComponents: Swift.Array&lt;SAC_commandLine.Component&gt;) -&gt; Swift.Bool"
+                  moduleName = "SAC-commandLine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dragos/Documents/Doctorat/Code/SAC-commandLine/SAC-commandLine/Extensions/Component+Inherits.swift"
+                  timestampString = "558105472.3473051"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "21">
+               </Location>
+               <Location
+                  uuid = "45BA7493-2865-49CA-8660-B504DD4E82FB - ebbd3714742b8643"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SAC_commandLine.Component) -&gt; Swift.Bool in SAC_commandLine.Component.(inheritsFrom in _E54E93BA7F824DD8E160FA453C49996D)(types: Swift.Array&lt;Swift.String&gt;, otherComponents: Swift.Array&lt;SAC_commandLine.Component&gt;) -&gt; Swift.Bool"
+                  moduleName = "SAC-commandLine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dragos/Documents/Doctorat/Code/SAC-commandLine/SAC-commandLine/Extensions/Component+Inherits.swift"
+                  timestampString = "558105472.349473"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE76A221-D5FE-4861-AD36-3BE6E06231F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Component+Inherits.swift"
+            timestampString = "588335629.803823"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "inheritsFrom(types:otherComponents:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB17B682-7F6F-4D5E-93DF-C61014BC4808"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Component+Inherits.swift"
+            timestampString = "588335629.803865"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "inheritsFrom(types:otherComponents:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B260D9D-BDA4-4428-9007-3F04548EE815"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Component+Inherits.swift"
+            timestampString = "588335629.803905"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "inheritsFrom(types:otherComponents:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6058C96A-F3C7-4E93-A745-2BFA15A22FB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Component+Inherits.swift"
+            timestampString = "588335629.803944"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "inheritsFrom(types:otherComponents:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C861C65E-5376-4669-BFB6-EAFF3F4B4778"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Component+Inherits.swift"
+            timestampString = "588335629.803983"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "inheritsFrom(types:otherComponents:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C95D37EF-1334-4BC7-B771-03A9F8C289BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Component+Helper.swift"
+            timestampString = "620991166.11957"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "numberOfElementsOfType(type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BC1EC02-7B0F-4D24-9788-1F6D4F6BDDB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Component+Helper.swift"
+            timestampString = "620991166.11964"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "numberOfElementsOfType(type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AD53583-C3E0-4D88-BD4B-786713D2D902"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Detectors/ArchitectureAnalyser.swift"
+            timestampString = "608898016.925419"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "analyseModules(modules:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DEFABC2-8392-4A62-9094-D665F8F907D9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Detectors/MVCAnalyser.swift"
+            timestampString = "595936646.765476"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "splitMVCClasses(components:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5296C17-6394-4F77-8D05-0C40C5D0E583"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Module+Extension.swift"
+            timestampString = "608898016.925495"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "dependentTypesFromModule(module:allComponents:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F5296C17-6394-4F77-8D05-0C40C5D0E583 - 71250629bae283cb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SAC_commandLine.Module.dependentTypesFromModule(module: SAC_commandLine.Module, allComponents: Swift.Array&lt;SAC_commandLine.Component&gt;) -&gt; Swift.Set&lt;Swift.String&gt;"
+                  moduleName = "SAC-commandLine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dragos/Documents/Doctorat/Code/SAC-commandLine/SAC-commandLine/Extensions/Module+Extension.swift"
+                  timestampString = "565011645.49919"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "247">
+               </Location>
+               <Location
+                  uuid = "F5296C17-6394-4F77-8D05-0C40C5D0E583 - d7f226d8feb2a4bb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SAC_commandLine.Component) -&gt; Swift.Bool in SAC_commandLine.Module.dependentTypesFromModule(module: SAC_commandLine.Module, allComponents: Swift.Array&lt;SAC_commandLine.Component&gt;) -&gt; Swift.Set&lt;Swift.String&gt;"
+                  moduleName = "SAC-commandLine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dragos/Documents/Doctorat/Code/SAC-commandLine/SAC-commandLine/Extensions/Module+Extension.swift"
+                  timestampString = "565011645.501611"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  uuid = "F5296C17-6394-4F77-8D05-0C40C5D0E583 - c80bd349592f5ddf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SAC_commandLine.Component) -&gt; Swift.String in SAC_commandLine.Module.dependentTypesFromModule(module: SAC_commandLine.Module, allComponents: Swift.Array&lt;SAC_commandLine.Component&gt;) -&gt; Swift.Set&lt;Swift.String&gt;"
+                  moduleName = "SAC-commandLine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dragos/Documents/Doctorat/Code/SAC-commandLine/SAC-commandLine/Extensions/Module+Extension.swift"
+                  timestampString = "565011645.5037839"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "772D22A5-8FE1-4595-9002-F0C4D967E1B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Module+Extension.swift"
+            timestampString = "608898016.925543"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "dependentTypesFromModule(module:allComponents:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE5CF703-82E3-4B13-8E99-027D7DD4A858"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Module+Extension.swift"
+            timestampString = "608898016.925585"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "dependentTypesFromModule(module:allComponents:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD6363EA-2EFC-465A-983E-64A312645923"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Module+Extension.swift"
+            timestampString = "608898016.925626"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "dependentTypesFromModule(module:allComponents:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20AFC20B-143B-4D98-8FE3-8BD77F915E46"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Module+Extension.swift"
+            timestampString = "608898016.925666"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "dependentTypesFromModule(module:allComponents:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAF7037B-0AC4-41CB-8CA6-76A32F742610"
+            shouldBeEnabled = "No"
+            condition = "val &gt; 0"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Detectors/ArchitectureAnalyser.swift"
+            timestampString = "608898016.925705"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "analyseModules(modules:)"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F404599B-0AB7-453C-98F8-4048BAF71FCF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Detectors/ArchitectureAnalyser.swift"
+            timestampString = "608898016.925748"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "analyseModules(modules:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBF1BC5D-9773-42FF-BAF4-5BA992E2E368"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Detectors/MVCAnalyser.swift"
+            timestampString = "595936646.7656029"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "detectControllers(components:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7E4530E-59E1-4378-A284-7C2789E8FF72"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Module+Extension.swift"
+            timestampString = "608898016.925807"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "dependentInsideTypesFromModule(module:allComponents:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E177CEBA-80B9-4A03-9989-DD589861AFBA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Module+Extension.swift"
+            timestampString = "608898016.925848"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "dependentInsideTypesFromModule(module:allComponents:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B74DF62-F3E4-45A6-B6B2-AB1D9914E220"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Extensions/Module+Extension.swift"
+            timestampString = "608898016.925886"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "dependentInsideTypesFromModule(module:allComponents:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D546356E-C965-4DA8-8593-6D36348F65E5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Helpers/Analyser.swift"
+            timestampString = "618297744.542582"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "constructScores(scores:comp:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "308D0ABB-62AA-4109-AD77-03B9F2C03FE6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Helpers/Analyser.swift"
+            timestampString = "618297744.542634"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "calculateScore(comps:scores:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90450F60-0EE1-4F81-A3DC-4185A781A43A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Helpers/Analyser.swift"
+            timestampString = "618297744.542679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "runClusterAnalysis(groundTruth:scores:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28BE1406-84DA-4300-A51D-63F9144CCC47"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/old.swift"
+            timestampString = "618297226.170573"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "run()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E71894E7-C4FF-432C-93EC-5F596E4D18F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/old.swift"
+            timestampString = "618297226.1706131"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "run()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44C6ABEA-5D8E-4F0C-BA1D-AC4AE5C11F1C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Parsers/RaportParser.swift"
+            timestampString = "608896784.928661"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "parse(raport:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "080E0E75-601D-4D28-9A5D-24BF084D7C99"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Parsers/RaportParser.swift"
+            timestampString = "608896784.928715"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "parse(file:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2452331A-6654-445E-911C-7E8CD0585019"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Parsers/RaportParser.swift"
+            timestampString = "608896784.928766"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "parse(substructures:atPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57D6BA5C-2DCE-4F1D-9779-5073110EE8DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Parsers/RaportParser.swift"
+            timestampString = "608896784.92881"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "parse(substructure:atPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28BFDDF4-5DA8-44CC-A73B-3408C3AED090"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ACDCCDComputer.swift"
+            timestampString = "619263601.368341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEB9E186-DC73-411D-B735-143C8EFA506C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ACDCCDComputer.swift"
+            timestampString = "619263601.368448"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF18786E-DD0E-45F0-9AF5-05151267FDED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Detectors/ArchitectureAnalyser.swift"
+            timestampString = "608898016.926277"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "analyseModules(modules:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0FAC15E-D2B5-4A0D-B801-02C58711837C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Detectors/ArchitectureAnalyser.swift"
+            timestampString = "608898016.926321"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "analyseModules(modules:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62C25FFD-1102-4AED-96B2-F6007D7FFCE3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Detectors/ArchitectureAnalyser.swift"
+            timestampString = "608898016.926365"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "analyseModules(modules:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B904D2C7-D3D0-4942-88D5-594AD2505011"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Detectors/ArchitectureAnalyser.swift"
+            timestampString = "608898016.926407"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "analyseModules(modules:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F705C34-C5EB-46AC-AE00-C3A9B8ACF2DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Detectors/ArchitectureAnalyser.swift"
+            timestampString = "608898016.926447"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "analyseModules(modules:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECD968DA-F355-4692-9582-7E48B401FB52"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Matrix/Matrix.swift"
+            timestampString = "620991166.11997"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "340"
+            endingLineNumber = "340"
+            landmarkName = "write(codebase:matrix:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66277922-1692-4A90-9143-7FFFB0F14896"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/Matrix/Matrix.swift"
+            timestampString = "620991166.1200269"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "352"
+            endingLineNumber = "352"
+            landmarkName = "write(codebase:matrix:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCA228E4-18E4-4CDC-A9A6-8529FAEE5A67"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/main.swift"
+            timestampString = "623229023.86497"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F12733AE-E01F-421B-9C24-698C402AFBB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/main.swift"
+            timestampString = "623229023.865363"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E40D2A33-80FC-4E8E-91A3-CEA5874D46B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SAC-commandLine/main.swift"
+            timestampString = "623229023.865597"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "approach2()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

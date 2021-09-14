@@ -1,0 +1,229 @@
+FAZAN
+
+
+MODEL
+
+FirebaseService
+FirebaseServiceHighscoreProtocol
+FirebaseServiceProtocol
+FontAwesome
+Game
+GameEndedMessage
+GameEndedMessageMapper
+GameMessage
+GameMessageMapper
+GameProtocol
+Highscore
+HighscoreCell
+MapperBase
+ReachabilityConstants
+ReachabilityService
+UsedWordTableViewProtocol
+User
+UserDefaultsManager
+UserManagement
+UserMapper
+WordValidator
+
+
+VIEW
+
+PlayersCell
+PlayersView
+UsedWordTableViewCell
+
+
+
+CONTROLLER
+
+AppDelegate
+DebugViewController
+GameLoserViewController
+GameViewController
+GameWinnerViewController
+HighscoresViewController
+StartViewController
+ThreePhaseVC
+TwoPhaseVC
+UsedWordsViewController
+UsersViewController
+WordDefinitionViewController
+
+
+
+
+With coordinators
+
+__________Controller___________
+
+DebugViewController
+GameLoserViewController
+GameViewController
+GameWinnerViewController
+HighscoresViewController
+StartViewController
+ThreePhaseVC
+TwoPhaseVC
+UsedWordsViewController
+UsersViewController
+WordDefinitionViewController
+
+
+__________View___________
+
+HighscoreCell
+PlayersCell
+PlayersView
+UsedWordTableViewCell
+
+
+__________Model___________
+
+AppDelegate
+Date
+FirebaseService
+FirebaseServiceHighscoreProtocol
+FirebaseServiceProtocol
+FontAwesome
+Game
+GameEndedMessage
+GameEndedMessageMapper
+GameMessage
+GameMessageMapper
+GameProtocol
+Highscore
+MapperBase
+ReachabilityConstants
+ReachabilityService
+String
+UIColor
+UsedWordTableViewProtocol
+User
+UserDefaultsManager
+UserManagement
+UserMapper
+WordValidator
+
+
+
+
+
+Whithout coordinators
+
+
+__________Controller___________
+
+DebugViewController
+GameLoserViewController
+GameViewController
+GameWinnerViewController
+HighscoresViewController
+StartViewController
+ThreePhaseVC
+TwoPhaseVC
+UsedWordsViewController
+UsersViewController
+WordDefinitionViewController
+
+
+__________View___________
+
+HighscoreCell
+PlayersCell
+PlayersView
+UsedWordTableViewCell
+
+
+__________Model___________
+
+AppDelegate
+Date
+FirebaseService
+FirebaseServiceHighscoreProtocol
+FirebaseServiceProtocol
+FontAwesome
+Game
+GameEndedMessage
+GameEndedMessageMapper
+GameMessage
+GameMessageMapper
+GameProtocol
+Highscore
+MapperBase
+ReachabilityConstants
+ReachabilityService
+String
+UIColor
+UsedWordTableViewProtocol
+User
+UserDefaultsManager
+UserManagement
+UserMapper
+WordValidator
+
+
+
+
+
+
+Clustering
+
+2 _________
+
+
+      HighscoreCell
+      PlayersCell
+      PlayersView
+      UsedWordTableViewCell
+      
+0 _________
+
+
+      	AppDelegate
+		Date
+		FirebaseServiceProtocol
+		FirebaseServiceHighscoreProtocol
+		FirebaseService
+		FontAwesome
+		GameProtocol
+		Game
+		GameEndedMessage
+		GameEndedMessageMapper
+		GameMessage
+		GameMessageMapper
+		Highscore
+		MapperBase
+		ReachabilityConstants
+		ReachabilityService
+		String
+		TwoPhaseVC
+		ThreePhaseVC
+		UIButton
+		UIColor
+		UITableView
+		UIView
+		UsedWordTableViewProtocol
+		User
+		UserDefaultsManager
+		UserManagement
+		UserMapper
+		WordValidator
+
+
+1 _________
+
+
+		DebugViewController
+		GameLoserViewController
+		GameViewController
+		GameWinnerViewController
+		HighscoresViewController
+		StartViewController
+		UIViewController
+		UsedWordsViewController
+		UsersViewController
+		WordDefinitionViewController
+
+
+
+

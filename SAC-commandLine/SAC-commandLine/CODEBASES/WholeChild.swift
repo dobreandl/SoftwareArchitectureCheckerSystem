@@ -1,0 +1,79 @@
+//
+//  WholeChild.swift
+//  SAC-commandLine
+//
+//  Created by Dragos Dobrean on 18/02/2020.
+//  Copyright © 2020 APPSSEMBLE-SOFT. All rights reserved.
+//
+
+import Foundation
+
+
+fileprivate struct Codebases {
+    static let baseModel = "AlertHelper,APIBaseResponseMapper,Category,CategoryMapper,Child,ChildLastTestData,ChildRequestParametersMapper,ChildResponseMapper,ChildService,Date,Dictionary,Error,ErrorCodeHelper,FileManager,HTMLContent,HTTPCookieStorage,InputValidator,Int,KeychainHelper,LocalNotifications,LocalNotificationScheduler,LocalNotificationsFileHandler,LocalNotificationsHandler,MiscRequestParametersMappers,MiscResponseMapper,MyValueFormatter,NSLayoutConstraint,Question,QuestionMapper,Quiz,QuizRequestMapper,QuizResponseMapper,QuizResult,QuizResultCategory,QuizResultCategoryMapper,QuizResultMapper,QuizService,ResultChartDelegate,ServiceHelper,ServiceHelperConstants,SessionManager,StoryboardHelper,String,TimeInterval,UIAlertController,UIApplication,UIColor,UIDevice,UIFont,UIImage,User,UserDefaultsManagement,UserRequestParametersMapper,UserResponseMapper,UserService,UtilsService".split(separator: ",").map({String($0)})
+    
+    static let baseView = "ActivityIndicator,BabyTableViewCell,BabyTableViewCellProtocol,CommonButton,LandingPagePageIndicatorView,LandingPagePageIndicatorViewDelegate,LandingPageScrollItemView,ResultsChart,UIImageView,UITableView,UIView,WCButton,WCCheckmarkButton,WCGradientButton,WCQuestionCell,WCQuestionCellDelegate,WCQuizHeaderView,WCTextField,WholeChildImagePicker,WKWebView".split(separator: ",").map({String($0)})
+    
+    static let baseController = "AfterSplashViewController,AfterSplashViewControllerFlowDelegate,AlertContainerViewController,AppDelegate,AppNavigationManager,AuthenticationChooseCategoryFlowDelegate,AuthenticationChooseCategoryViewController,AuthenticationFlowManager,AuthenticationFlowManagerDelegate,AuthenticationForgotPasswordFlowDelegate,AuthenticationForgotPasswordViewController,AuthenticationInitialFlowDelegate,AuthenticationInitialViewController,AuthenticationRegisterViewController,AuthenticationRegistrationFlowDelegate,AuthenticationSignInFlowDelegate,AuthenticationSignInViewController,BabiesListFlowProtocol,BabiesListViewController,BabyFlowDelegate,BabyFlowManager,BabyViewController,BaseFlowDelegate,BaseFlowManager,BaseViewControllerFlowDelegate,FlowManagerProtocol,ImagePickerHelper,ImagePickerProtocol,IntroFlowManager,IntroFlowManagerDelegate,IntroViewController,IntroViewControllerFlowDelegate,ppNavigationManager,ProfileFlowManager,ProfileViewController,ProfileViewFlowDelegate,QuizFlowManager,QuizFlowManagerDelegate,QuizViewControllerFlowDelegate,ResultsFlowManager,ResultsFlowManagerDelegate,ResultsViewFlowDelegate,ResultViewController,UIViewController,WCNavigationController,WCQuizViewController,WCViewController,WebViewController,WebViewControllerFlowDelagate".split(separator: ",").map({String($0)})
+    
+    
+    
+    static let macsSimpleModel = "AfterSplashViewControllerFlowDelegate,AlertHelper,APIBaseResponseMapper,AppDelegate,AppNavigationManager,AuthenticationChooseCategoryFlowDelegate,AuthenticationFlowManager,AuthenticationFlowManagerDelegate,AuthenticationForgotPasswordFlowDelegate,AuthenticationInitialFlowDelegate,AuthenticationRegistrationFlowDelegate,AuthenticationSignInFlowDelegate,BabiesListFlowProtocol,BabyFlowDelegate,BabyFlowManager,BabyTableViewCellProtocol,BaseFlowDelegate,BaseFlowManager,BaseViewControllerFlowDelegate,Category,CategoryMapper,Child,ChildLastTestData,ChildRequestParametersMapper,ChildResponseMapper,ChildService,Date,Dictionary,Error,ErrorCodeHelper,FileManager,FlowManagerProtocol,HTMLContent,HTTPCookieStorage,ImagePickerHelper,ImagePickerProtocol,InputValidator,Int,IntroFlowManager,IntroFlowManagerDelegate,IntroViewControllerFlowDelegate,KeychainHelper,LandingPagePageIndicatorViewDelegate,LocalNotifications,LocalNotificationScheduler,LocalNotificationsFileHandler,LocalNotificationsHandler,MiscRequestParametersMappers,MiscResponseMapper,MyValueFormatter,NSLayoutConstraint,ProfileFlowManager,ProfileViewFlowDelegate,Question,QuestionMapper,Quiz,QuizFlowManager,QuizFlowManagerDelegate,QuizRequestMapper,QuizResponseMapper,QuizResult,QuizResultCategory,QuizResultCategoryMapper,QuizResultMapper,QuizService,QuizViewControllerFlowDelegate,ResultChartDelegate,ResultsFlowManager,ResultsFlowManagerDelegate,ResultsViewFlowDelegate,ServiceHelper,ServiceHelperConstants,SessionManager,StoryboardHelper,String,TimeInterval,UIAlertController,UIApplication,UIColor,UIDevice,UIFont,UIImage,User,UserDefaultsManagement,UserRequestParametersMapper,UserResponseMapper,UserService,UtilsService,WCQuestionCellDelegate,WCTextField,WebViewControllerFlowDelagate,WKWebView".split(separator: ",").map({String($0)})
+    
+    
+    
+    static let macsSimpleView = "ActivityIndicator,BabyTableViewCell,CommonButton,LandingPagePageIndicatorView,LandingPageScrollItemView,ResultsChart,WCButton,WCCheckmarkButton,WCGradientButton,WCQuestionCell,WCQuizHeaderView".split(separator: ",").map({String($0)})
+    
+    
+    
+    static let macsSimpleController = "AfterSplashViewController,WholeChildImagePicker,ProfileViewController,IntroViewController,AuthenticationRegisterViewController,WCNavigationController,WebViewController,BabiesListViewController,WCQuizViewController,AuthenticationForgotPasswordViewController,BabyViewController,AuthenticationInitialViewController,ResultViewController,AlertContainerViewController,WCViewController,AuthenticationSignInViewController,AuthenticationChooseCategoryViewController".split(separator: ",").map({String($0)})
+    
+    
+    
+    
+    static let macsCoordinatorModel = "AlertHelper,APIBaseResponseMapper,AuthenticationForgotPasswordFlowDelegate,BabyTableViewCellProtocol,Category,CategoryMapper,Child,ChildLastTestData,ChildRequestParametersMapper,ChildResponseMapper,ChildService,Date,Dictionary,Error,ErrorCodeHelper,FileManager,HTMLContent,HTTPCookieStorage,InputValidator,Int,IntroViewControllerFlowDelegate,KeychainHelper,LandingPagePageIndicatorViewDelegate,LocalNotifications,LocalNotificationScheduler,LocalNotificationsFileHandler,MiscRequestParametersMappers,MiscResponseMapper,MyValueFormatter,NSLayoutConstraint,Question,QuestionMapper,Quiz,QuizRequestMapper,QuizResponseMapper,QuizResult,QuizResultCategory,QuizResultCategoryMapper,QuizResultMapper,QuizService,ResultChartDelegate,ServiceHelper,ServiceHelperConstants,SessionManager,String,TimeInterval,UIAlertController,UIColor,UIDevice,UIFont,UIImage,User,UserDefaultsManagement,UserRequestParametersMapper,UserResponseMapper,UserService,UtilsService,WCQuestionCellDelegate,WCTextField,WebViewControllerFlowDelagate,WKWebView".split(separator: ",").map({String($0)})
+    
+    
+    static let macsCoordinatorView = "ActivityIndicator,BabyTableViewCell,CommonButton,LandingPagePageIndicatorView,LandingPageScrollItemView,ResultsChart,WCButton,WCCheckmarkButton,WCGradientButton,WCQuestionCell,WCQuizHeaderView".split(separator: ",").map({String($0)})
+    
+    
+    static let macsCoordinatorController = "AfterSplashViewController,AfterSplashViewControllerFlowDelegate,AlertContainerViewController,AppDelegate,AppNavigationManager,AuthenticationChooseCategoryFlowDelegate,AuthenticationChooseCategoryViewController,AuthenticationFlowManager,AuthenticationFlowManagerDelegate,AuthenticationForgotPasswordViewController,AuthenticationInitialFlowDelegate,AuthenticationInitialViewController,AuthenticationRegisterViewController,AuthenticationRegistrationFlowDelegate,AuthenticationSignInFlowDelegate,AuthenticationSignInViewController,BabiesListFlowProtocol,BabiesListViewController,BabyFlowDelegate,BabyFlowManager,BabyViewController,BaseFlowDelegate,BaseFlowManager,BaseViewControllerFlowDelegate,FlowManagerProtocol,ImagePickerHelper,ImagePickerProtocol,IntroFlowManager,IntroFlowManagerDelegate,IntroViewController,LocalNotificationsHandler,ProfileFlowManager,ProfileViewController,ProfileViewFlowDelegate,QuizFlowManager,QuizFlowManagerDelegate,QuizViewControllerFlowDelegate,ResultsFlowManager,ResultsFlowManagerDelegate,ResultsViewFlowDelegate,ResultViewController,StoryboardHelper,UIApplication,WCNavigationController,WCQuizViewController,WCViewController,WebViewController,WholeChildImagePicker".split(separator: ",").map({String($0)})
+    
+    
+    
+    static let carlSimpleModel = "AppDelegate,FileManager,HTTPCookieStorage,Int,NSLayoutConstraint,String,TimeInterval,UIApplication,UIColor,UIDevice,UIFont,UIImage,UIImageView,UITableView,UIView,WKWebView,AppNavigationManager,AuthenticationFlowManagerDelegate,AuthenticationFlowManager,BabyFlowManager,FlowManagerProtocol,BaseFlowDelegate,BaseFlowManager,IntroFlowManagerDelegate,IntroFlowManager,ProfileFlowManager,QuizFlowManagerDelegate,QuizFlowManager,ResultsFlowManagerDelegate,ResultsFlowManager,AlertHelper,Date,Dictionary,ErrorCodeHelper,ImagePickerProtocol,ImagePickerHelper,InputValidator,KeychainHelper,LocalNotificationScheduler,LocalNotifications,LocalNotificationsFileHandler,LocalNotificationsHandler,StoryboardHelper,UserDefaultsManagement,SessionManager,Category,CategoryMapper,Child,ChildLastTestData,ChildRequestParametersMapper,ChildResponseMapper,HTMLContent,MiscRequestParametersMappers,MiscResponseMapper,Question,QuestionMapper,QuizRequestMapper,QuizResponseMapper,QuizResultCategoryMapper,QuizResultMapper,Quiz,QuizResult,QuizResultCategory,UserRequestParametersMapper,UserResponseMapper,User,APIBaseResponseMapper,ChildService,QuizService,Error,ServiceHelperConstants,ServiceHelper,UserService,UtilsService,ActivityIndicator,BabyTableViewCellProtocol,BabyTableViewCell,ResultChartDelegate,MyValueFormatter,ResultsChart,CommonButton,LandingPagePageIndicatorViewDelegate,LandingPagePageIndicatorView,LandingPageScrollItemView,WCButton,WCCheckmarkButton,WCGradientButton,WCQuestionCellDelegate,WCQuestionCell,WCQuizHeaderView,WCTextField,AuthenticationChooseCategoryFlowDelegate,AuthenticationForgotPasswordFlowDelegate,AuthenticationInitialFlowDelegate,AuthenticationRegistrationFlowDelegate,AuthenticationSignInFlowDelegate,BabiesListFlowProtocol,BabyFlowDelegate,ProfileViewFlowDelegate,ResultsViewFlowDelegate".split(separator: ",").map({String($0)})
+    
+    
+    
+    static let carlSimpleView = "WCNavigationController,WholeChildImagePicker".split(separator: ",").map({String($0)})
+    
+    
+    
+    static let carlSimpleController = "WCViewController,AlertContainerViewController,UIAlertController,UIViewController,BaseViewControllerFlowDelegate,AuthenticationChooseCategoryViewController,AuthenticationForgotPasswordViewController,AuthenticationInitialViewController,AuthenticationRegisterViewController,AuthenticationSignInViewController,BabiesListViewController,BabyViewController,AfterSplashViewControllerFlowDelegate,AfterSplashViewController,IntroViewControllerFlowDelegate,IntroViewController,WebViewControllerFlowDelagate,WebViewController,ProfileViewController,QuizViewControllerFlowDelegate,WCQuizViewController,ResultViewController".split(separator: ",").map({String($0)})
+    
+    
+    static let hybridController = "AfterSplashViewController,AfterSplashViewControllerFlowDelegate,AlertContainerViewController,AppDelegate,AppNavigationManager,AuthenticationChooseCategoryFlowDelegate,AuthenticationChooseCategoryViewController,AuthenticationFlowManager,AuthenticationFlowManagerDelegate,AuthenticationForgotPasswordViewController,AuthenticationInitialFlowDelegate,AuthenticationInitialViewController,AuthenticationRegisterViewController,AuthenticationRegistrationFlowDelegate,AuthenticationSignInFlowDelegate,AuthenticationSignInViewController,BabiesListFlowProtocol,BabiesListViewController,BabyFlowDelegate,BabyFlowManager,BabyViewController,BaseFlowDelegate,BaseFlowManager,BaseViewControllerFlowDelegate,FlowManagerProtocol,ImagePickerHelper,ImagePickerProtocol,IntroFlowManager,IntroFlowManagerDelegate,IntroViewController,LocalNotificationsHandler,ProfileFlowManager,ProfileViewController,ProfileViewFlowDelegate,QuizFlowManager,QuizFlowManagerDelegate,QuizViewControllerFlowDelegate,ResultsFlowManager,ResultsFlowManagerDelegate,ResultsViewFlowDelegate,ResultViewController,StoryboardHelper,UIApplication,WCNavigationController,WCQuizViewController,WCViewController,WebViewController,WholeChildImagePicker".split(separator: ",").map({String($0)})
+    
+    
+    static let hybridModel = "AlertHelper,APIBaseResponseMapper,AuthenticationForgotPasswordFlowDelegate,BabyTableViewCellProtocol,Category,CategoryMapper,Child,ChildLastTestData,ChildRequestParametersMapper,ChildResponseMapper,ChildService,Date,Dictionary,Error,ErrorCodeHelper,FileManager,HTMLContent,HTTPCookieStorage,InputValidator,Int,IntroViewControllerFlowDelegate,KeychainHelper,LandingPagePageIndicatorViewDelegate,LocalNotifications,LocalNotificationScheduler,LocalNotificationsFileHandler,MiscRequestParametersMappers,MiscResponseMapper,MyValueFormatter,NSLayoutConstraint,Question,QuestionMapper,Quiz,QuizRequestMapper,QuizResponseMapper,QuizResult,QuizResultCategory,QuizResultCategoryMapper,QuizResultMapper,QuizService,ResultChartDelegate,ServiceHelper,ServiceHelperConstants,SessionManager,String,TimeInterval,UIAlertController,UIColor,UIDevice,UIFont,UIImage,User,UserDefaultsManagement,UserRequestParametersMapper,UserResponseMapper,UserService,UtilsService,WCQuestionCellDelegate,WCTextField,WebViewControllerFlowDelagate,WKWebView".split(separator: ",").map({String($0)})
+    
+}
+
+
+class WholeChild: MVCCodebase {
+    var benchmark: Layers
+    var macsSimple: Layers
+    var macsCoordinator: Layers
+    var carlSimple: Layers
+    var hybrid: Layers
+    
+    
+    init() {
+        benchmark = Layers(model: Codebases.baseModel, view: Codebases.baseView, controller: Codebases.baseController)
+        macsSimple = Layers(model: Codebases.macsSimpleModel, view: Codebases.macsSimpleView, controller: Codebases.macsSimpleController)
+        macsCoordinator = Layers(model: Codebases.macsCoordinatorModel, view: Codebases.macsCoordinatorView, controller: Codebases.macsCoordinatorController)
+        carlSimple = Layers(model: Codebases.carlSimpleModel, view: Codebases.carlSimpleView, controller: Codebases.carlSimpleController)
+        
+        hybrid = Layers(model: Codebases.hybridModel, view: Codebases.macsCoordinatorView, controller: Codebases.hybridController)
+    }
+}

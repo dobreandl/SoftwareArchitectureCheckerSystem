@@ -1,0 +1,620 @@
+MODEL
+
+AlertHelper
+APIBaseResponseMapper
+Category
+CategoryMapper
+Child
+ChildLastTestData
+ChildRequestParametersMapper
+ChildResponseMapper
+ChildService
+Date
+Dictionary
+Error
+ErrorCodeHelper
+FileManager
+HTMLContent
+HTTPCookieStorage
+InputValidator
+Int
+KeychainHelper
+LocalNotifications
+LocalNotificationScheduler
+LocalNotificationsFileHandler
+LocalNotificationsHandler
+MiscRequestParametersMappers
+MiscResponseMapper
+MyValueFormatter
+NSLayoutConstraint
+Question
+QuestionMapper
+Quiz
+QuizRequestMapper
+QuizResponseMapper
+QuizResult
+QuizResultCategory
+QuizResultCategoryMapper
+QuizResultMapper
+QuizService
+ResultChartDelegate
+ServiceHelper
+ServiceHelperConstants
+SessionManager
+StoryboardHelper
+String
+TimeInterval
+UIAlertController
+UIApplication
+UIColor
+UIDevice
+UIFont
+UIImage
+User
+UserDefaultsManagement
+UserRequestParametersMapper
+UserResponseMapper
+UserService
+UtilsService
+
+
+VIEW
+
+ActivityIndicator
+BabyTableViewCell
+BabyTableViewCellProtocol
+CommonButton
+LandingPagePageIndicatorView
+LandingPagePageIndicatorViewDelegate
+LandingPageScrollItemView
+ResultsChart
+UIImageView
+UITableView
+UIView
+WCButton
+WCCheckmarkButton
+WCGradientButton
+WCQuestionCell
+WCQuestionCellDelegate
+WCQuizHeaderView
+WCTextField
+WholeChildImagePicker
+WKWebView
+
+
+CONTROLLER
+
+AfterSplashViewController
+AfterSplashViewControllerFlowDelegate
+AlertContainerViewController
+AppDelegate
+AppNavigationManager
+AuthenticationChooseCategoryFlowDelegate
+AuthenticationChooseCategoryViewController
+AuthenticationFlowManager
+AuthenticationFlowManagerDelegate
+AuthenticationForgotPasswordFlowDelegate
+AuthenticationForgotPasswordViewController
+AuthenticationInitialFlowDelegate
+AuthenticationInitialViewController
+AuthenticationRegisterViewController
+AuthenticationRegistrationFlowDelegate
+AuthenticationSignInFlowDelegate
+AuthenticationSignInViewController
+BabiesListFlowProtocol
+BabiesListViewController
+BabyFlowDelegate
+BabyFlowManager
+BabyViewController
+BaseFlowDelegate
+BaseFlowManager
+BaseViewControllerFlowDelegate
+FlowManagerProtocol
+ImagePickerHelper
+ImagePickerProtocol
+IntroFlowManager
+IntroFlowManagerDelegate
+IntroViewController
+IntroViewControllerFlowDelegate
+ppNavigationManager
+ProfileFlowManager
+ProfileViewController
+ProfileViewFlowDelegate
+QuizFlowManager
+QuizFlowManagerDelegate
+QuizViewControllerFlowDelegate
+ResultsFlowManager
+ResultsFlowManagerDelegate
+ResultsViewFlowDelegate
+ResultViewController
+UIViewController
+WCNavigationController
+WCQuizViewController
+WCViewController
+WebViewController
+WebViewControllerFlowDelagate
+
+
+
+
+************** WITH COORDINATORS
+
+
+
+
+
+MODEL
+
+AlertHelper
+APIBaseResponseMapper
+AuthenticationForgotPasswordFlowDelegate
+BabyTableViewCellProtocol
+Category
+CategoryMapper
+Child
+ChildLastTestData
+ChildRequestParametersMapper
+ChildResponseMapper
+ChildService
+Date
+Dictionary
+Error
+ErrorCodeHelper
+FileManager
+HTMLContent
+HTTPCookieStorage
+InputValidator
+Int
+IntroViewControllerFlowDelegate
+KeychainHelper
+LandingPagePageIndicatorViewDelegate
+LocalNotifications
+LocalNotificationScheduler
+LocalNotificationsFileHandler
+MiscRequestParametersMappers
+MiscResponseMapper
+MyValueFormatter
+NSLayoutConstraint
+Question
+QuestionMapper
+Quiz
+QuizRequestMapper
+QuizResponseMapper
+QuizResult
+QuizResultCategory
+QuizResultCategoryMapper
+QuizResultMapper
+QuizService
+ResultChartDelegate
+ServiceHelper
+ServiceHelperConstants
+SessionManager
+String
+TimeInterval
+UIAlertController
+UIColor
+UIDevice
+UIFont
+UIImage
+User
+UserDefaultsManagement
+UserRequestParametersMapper
+UserResponseMapper
+UserService
+UtilsService
+WCQuestionCellDelegate
+WCTextField
+WebViewControllerFlowDelagate
+WKWebView
+
+
+
+VIEW
+
+ActivityIndicator
+BabyTableViewCell
+CommonButton
+LandingPagePageIndicatorView
+LandingPageScrollItemView
+ResultsChart
+WCButton
+WCCheckmarkButton
+WCGradientButton
+WCQuestionCell
+WCQuizHeaderView
+
+
+CONTROLLER
+
+ 
+AfterSplashViewController
+AfterSplashViewControllerFlowDelegate
+AlertContainerViewController
+AppDelegate
+AppNavigationManager
+AuthenticationChooseCategoryFlowDelegate
+AuthenticationChooseCategoryViewController
+AuthenticationFlowManager
+AuthenticationFlowManagerDelegate
+AuthenticationForgotPasswordViewController
+AuthenticationInitialFlowDelegate
+AuthenticationInitialViewController
+AuthenticationRegisterViewController
+AuthenticationRegistrationFlowDelegate
+AuthenticationSignInFlowDelegate
+AuthenticationSignInViewController
+BabiesListFlowProtocol
+BabiesListViewController
+BabyFlowDelegate
+BabyFlowManager
+BabyViewController
+BaseFlowDelegate
+BaseFlowManager
+BaseViewControllerFlowDelegate
+FlowManagerProtocol
+ImagePickerHelper
+ImagePickerProtocol
+IntroFlowManager
+IntroFlowManagerDelegate
+IntroViewController
+LocalNotificationsHandler
+ProfileFlowManager
+ProfileViewController
+ProfileViewFlowDelegate
+QuizFlowManager
+QuizFlowManagerDelegate
+QuizViewControllerFlowDelegate
+ResultsFlowManager
+ResultsFlowManagerDelegate
+ResultsViewFlowDelegate
+ResultViewController
+StoryboardHelper
+UIApplication
+WCNavigationController
+WCQuizViewController
+WCViewController
+WebViewController
+WholeChildImagePicker
+
+
+
+STATS
+
+
+Module: Controller external dependencies 402 internal dependencies 24
+Module: View external dependencies 47 internal dependencies 14
+Module: Model external dependencies 229 internal dependencies 29
+Total components: 185
+Module Controller has: 72 components 38% of total.
+Module View has: 51 components 27% of total.
+Module Model has: 62 components 33% of total.
+
+   *View depends on Model -> Total: 11 Different items 4*  Total in first module - 47 percentage: 23  
+
+
+   *Controller depends on View -> Total: 46 Different items 16*  Total in first module - 402 percentage: 11  
+
+
+   *Controller depends on Model -> Total: 94 Different items 15*  Total in first module - 402 percentage: 23  
+
+
+
+
+
+************** SIMPLE
+
+
+
+
+
+
+MODEL
+
+
+AfterSplashViewControllerFlowDelegate
+AlertHelper
+APIBaseResponseMapper
+AppDelegate
+AppNavigationManager
+AuthenticationChooseCategoryFlowDelegate
+AuthenticationFlowManager
+AuthenticationFlowManagerDelegate
+AuthenticationForgotPasswordFlowDelegate
+AuthenticationInitialFlowDelegate
+AuthenticationRegistrationFlowDelegate
+AuthenticationSignInFlowDelegate
+BabiesListFlowProtocol
+BabyFlowDelegate
+BabyFlowManager
+BabyTableViewCellProtocol
+BaseFlowDelegate
+BaseFlowManager
+BaseViewControllerFlowDelegate
+Category
+CategoryMapper
+Child
+ChildLastTestData
+ChildRequestParametersMapper
+ChildResponseMapper
+ChildService
+Date
+Dictionary
+Error
+ErrorCodeHelper
+FileManager
+FlowManagerProtocol
+HTMLContent
+HTTPCookieStorage
+ImagePickerHelper
+ImagePickerProtocol
+InputValidator
+Int
+IntroFlowManager
+IntroFlowManagerDelegate
+IntroViewControllerFlowDelegate
+KeychainHelper
+LandingPagePageIndicatorViewDelegate
+LocalNotifications
+LocalNotificationScheduler
+LocalNotificationsFileHandler
+LocalNotificationsHandler
+MiscRequestParametersMappers
+MiscResponseMapper
+MyValueFormatter
+NSLayoutConstraint
+ProfileFlowManager
+ProfileViewFlowDelegate
+Question
+QuestionMapper
+Quiz
+QuizFlowManager
+QuizFlowManagerDelegate
+QuizRequestMapper
+QuizResponseMapper
+QuizResult
+QuizResultCategory
+QuizResultCategoryMapper
+QuizResultMapper
+QuizService
+QuizViewControllerFlowDelegate
+ResultChartDelegate
+ResultsFlowManager
+ResultsFlowManagerDelegate
+ResultsViewFlowDelegate
+ServiceHelper
+ServiceHelperConstants
+SessionManager
+StoryboardHelper
+String
+TimeInterval
+UIAlertController
+UIApplication
+UIColor
+UIDevice
+UIFont
+UIImage
+User
+UserDefaultsManagement
+UserRequestParametersMapper
+UserResponseMapper
+UserService
+UtilsService
+WCQuestionCellDelegate
+WCTextField
+WebViewControllerFlowDelagate
+WKWebView
+
+
+
+
+VIEW
+
+
+ActivityIndicator
+BabyTableViewCell
+CommonButton
+LandingPagePageIndicatorView
+LandingPageScrollItemView
+ResultsChart
+WCButton
+WCCheckmarkButton
+WCGradientButton
+WCQuestionCell
+WCQuizHeaderView
+
+
+
+CONTROLLER
+
+
+
+AfterSplashViewController
+WholeChildImagePicker
+ProfileViewController
+IntroViewController
+AuthenticationRegisterViewController
+WCNavigationController
+WebViewController
+BabiesListViewController
+WCQuizViewController
+AuthenticationForgotPasswordViewController
+BabyViewController
+AuthenticationInitialViewController
+ResultViewController
+AlertContainerViewController
+WCViewController
+AuthenticationSignInViewController
+AuthenticationChooseCategoryViewController
+
+
+
+STATS
+
+Module: Controller external dependencies 221 internal dependencies 0
+Module: View external dependencies 47 internal dependencies 14
+Module: Model external dependencies 449 internal dependencies 41
+Total components: 185
+Module Controller has: 38 components 20% of total.
+Module View has: 51 components 27% of total.
+Module Model has: 96 components 51% of total.
+
+   *View depends on Model -> Total: 11 Different items 4*  Total in first module - 47 percentage: 23  
+
+
+   *Controller depends on View -> Total: 45 Different items 15*  Total in first module - 221 percentage: 20  
+
+
+   *Model depends on Controller -> Total: 77 Different items 13*  Total in first module - 449 percentage: 17  
+
+
+   *Model depends on View -> Total: 2 Different items 1*  Total in first module - 449 percentage: 0  
+
+
+   *Controller depends on Model -> Total: 55 Different items 14*  Total in first module - 221 percentage: 24  
+
+
+
+VC-CC 2/1
+
+
+
+Clustering
+
+
+2 _________
+
+
+      	WCViewController
+		AlertContainerViewController
+		UIAlertController
+		UIViewController
+		BaseViewControllerFlowDelegate
+		AuthenticationChooseCategoryViewController
+		AuthenticationForgotPasswordViewController
+		AuthenticationInitialViewController
+		AuthenticationRegisterViewController
+		AuthenticationSignInViewController
+		BabiesListViewController
+		BabyViewController
+		AfterSplashViewControllerFlowDelegate
+		AfterSplashViewController
+		IntroViewControllerFlowDelegate
+		IntroViewController
+		WebViewControllerFlowDelagate
+		WebViewController
+		ProfileViewController
+		QuizViewControllerFlowDelegate
+		WCQuizViewController
+		ResultViewController
+
+
+0 _________
+
+
+		AppDelegate
+		FileManager
+		HTTPCookieStorage
+		Int
+		NSLayoutConstraint
+		String
+		TimeInterval
+		UIApplication
+		UIColor
+		UIDevice
+		UIFont
+		UIImage
+		UIImageView
+		UITableView
+		UIView
+		WKWebView
+		AppNavigationManager
+		AuthenticationFlowManagerDelegate
+		AuthenticationFlowManager
+		BabyFlowManager
+		FlowManagerProtocol
+		BaseFlowDelegate
+		BaseFlowManager
+		IntroFlowManagerDelegate
+		IntroFlowManager
+		ProfileFlowManager
+		QuizFlowManagerDelegate
+		QuizFlowManager
+		ResultsFlowManagerDelegate
+		ResultsFlowManager
+		AlertHelper
+		Date
+		Dictionary
+		ErrorCodeHelper
+		ImagePickerProtocol
+		ImagePickerHelper
+		InputValidator
+		KeychainHelper
+		LocalNotificationScheduler
+		LocalNotifications
+		LocalNotificationsFileHandler
+		LocalNotificationsHandler
+		StoryboardHelper
+		UserDefaultsManagement
+		SessionManager
+		Category
+		CategoryMapper
+		Child
+		ChildLastTestData
+		ChildRequestParametersMapper
+		ChildResponseMapper
+		HTMLContent
+		MiscRequestParametersMappers
+		MiscResponseMapper
+		Question
+		QuestionMapper
+		QuizRequestMapper
+		QuizResponseMapper
+		QuizResultCategoryMapper
+		QuizResultMapper
+		Quiz
+		QuizResult
+		QuizResultCategory
+		UserRequestParametersMapper
+		UserResponseMapper
+		User
+		APIBaseResponseMapper
+		ChildService
+		QuizService
+		Error
+		ServiceHelperConstants
+		ServiceHelper
+		UserService
+		UtilsService
+		ActivityIndicator
+		BabyTableViewCellProtocol
+		BabyTableViewCell
+		ResultChartDelegate
+		MyValueFormatter
+		ResultsChart
+		CommonButton
+		LandingPagePageIndicatorViewDelegate
+		LandingPagePageIndicatorView
+		LandingPageScrollItemView
+		WCButton
+		WCCheckmarkButton
+		WCGradientButton
+		WCQuestionCellDelegate
+		WCQuestionCell
+		WCQuizHeaderView
+		WCTextField
+		AuthenticationChooseCategoryFlowDelegate
+		AuthenticationForgotPasswordFlowDelegate
+		AuthenticationInitialFlowDelegate
+		AuthenticationRegistrationFlowDelegate
+		AuthenticationSignInFlowDelegate
+		BabiesListFlowProtocol
+		BabyFlowDelegate
+		ProfileViewFlowDelegate
+		ResultsViewFlowDelegate
+
+
+1 _________
+
+
+      WCNavigationController
+      WholeChildImagePicker
